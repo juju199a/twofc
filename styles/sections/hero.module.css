@@ -1,0 +1,159 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    max-width: 1920px;
+    min-width: 972px;
+    width:100vw;
+    height:972px;
+    background-image: linear-gradient(rgba(255,255,255,0.9) 0%, rgba(255,255,255,0.5) 100%), url('/images/hero.jpg');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    /* border: 2px solid red;  확인용 */
+}
+
+.bg {
+    width:100%;
+    opacity:0.5;
+}
+
+.hero-section {
+    
+    max-width: 1440px;
+    min-width: 1280px;
+    width: 100%;
+    margin: 120 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 137px;
+    
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    
+    gap: 40px;
+    margin: 78px 120px 0;
+    width: 100%;
+    height:100%;
+    max-width: 1200px;
+    max-height: 625px;
+    /* border: 2px solid blue;  확인용 */
+}
+
+.hero-container-left {
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    max-width: 408px;
+    width: 100%;
+    /* border: 2px solid blue;    확인용 */
+}
+
+.hero-container-right {
+    position: relative;
+    max-width: 749px;
+    width: 100%;
+    /* border: 2px solid blue;    확인용 */
+}
+
+.hero-container-left h1{
+    margin: 0;
+    color: var(--color-neutral-900);
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.hero-container-left h2{
+    margin: 0;
+    color: var(--color-neutral-600);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero-container-left .button-box {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.button {
+    width: 244px;
+    height: 64px;
+    background-color: var(--button-fill-blue); /* 배경색 */    
+    color: var(--color-white);              /* 글자색 */
+    border: 0; /* 테두리 */
+    border-radius: 16px;        /* 둥근 모서리 */
+    padding: 16px 32px;        /* 여백 */
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    opacity: 85%; /* hover 시 색상 */
+}
+
+.button-disable {
+    width: 244px;
+    height: 64px;
+    background-color: #0000;  /* 배경색 */
+    color: var(--color-primary);              /* 글자색 */
+    border: 1.5px solid var(--button-stroke-blue); /* 테두리 */
+    border-radius: 16px;        /* 둥근 모서리 */
+    padding: 16px 32px;        /* 여백 */
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-disable:hover {
+    opacity: 85%; /* hover 시 색상 */
+}
+
+.hero1 {
+    position: absolute;
+    top: 68px;
+    width: 627px;
+    height: 533px;
+    border: 1px solid var(--color-neutral-300);
+    border-radius: 8px;
+    z-index: 2;
+    
+}
+
+.hero2 {
+    position: absolute;
+    left:68px;
+    z-index:1;
+}
+
+.hero-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 16px 0;
+}
+
+.hero-banner-container .heading{
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.hero-banner-container .clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 48px;
+    /* border: 2px solid blue;   확인용 */
+}

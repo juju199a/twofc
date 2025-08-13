@@ -1,0 +1,90 @@
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px auto;
+    max-width: 1200px;
+    width: 100%;
+    border-bottom: 1px solid var(--bg-gray-100);
+}
+
+.logo {
+    border: 2px solid red;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding: 0;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: 700;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+  color: var(--color-neutral-900);
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 30px;
+    width: 300px;
+
+}
+
+.button {
+    width: 135px;
+    height: 40px;
+    background-color: var(--button-fill-blue); /* 배경색 */    
+    color: var(--color-white);              /* 글자색 */
+    border: 0; /* 테두리 */
+    border-radius: 12px;        /* 둥근 모서리 */
+    padding: 8px 24px;        /* 여백 */
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    opacity: 85%; /* hover 시 색상 */
+}
+
+.button-disable {
+    width: 135px;
+    height: 40px;
+    background-color: #0000;  /* 배경색 */
+    color: var(--color-primary);              /* 글자색 */
+    border: 1.5px solid var(--button-stroke-blue); /* 테두리 */
+    border-radius: 12px;        /* 둥근 모서리 */
+    padding: 8px 24px;        /* 여백 */
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-mask {
+  display:inline-block;
+  width:24px; height:24px;
+  background-color: var(--color-primary);
+  -webkit-mask: url('/icons/keyboard_arrow_down.svg') no-repeat center / contain;
+          mask: url('/icons/keyboard_arrow_down.svg') no-repeat center / contain;
+}
+
+.button-disable:hover {
+    opacity: 85%; /* hover 시 색상 */
+}

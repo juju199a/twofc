@@ -1,0 +1,78 @@
+.wrapper {
+    height: 658px;
+
+    /* border: 2px solid purple;     확인용 */
+}
+
+.section {
+    /* border: 2px solid blue;     확인용 */
+}
+
+.container {
+    max-height: 740px;
+    height: 100%;
+    margin: 120px 0;
+
+    gap: 80px;
+    /* border: 2px solid red;     확인용 */
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+
+    gap: 16px;
+}
+
+.heading .big{
+    max-width: 1200px;
+    
+    margin: 0;
+    color: var(--color-neutral-900);
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.heading .small{
+    max-width: 1119px;
+    
+    margin: 0;
+    color: var(--color-neutral-600);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.news-list {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.news-list .news {
+    max-width: 340px;
+    max-height: 262px;
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid var(--card-stroke-200);
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+

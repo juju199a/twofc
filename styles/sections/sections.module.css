@@ -1,0 +1,32 @@
+.wrapper-base {
+    max-width: 1920px;
+    min-width: 972px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.section-base {
+    max-width: 1440px;
+    min-width: 1280px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container-base {
+    max-width: 1200px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
