@@ -1,18 +1,25 @@
 import styles from '@/styles/sections/hero.module.css';
 import Image from "next/image";
+import {useTranslations} from 'next-intl';
 
 export default function Hero() {
 
+  const t = useTranslations('LandingPage.heroSection');
+  const messages = {
+      heroSection: t('headingTitle'),
+      headingSubTitle : t('headingSubTitle')
+  };
+  
   return (
     <div className={styles['hero']}>
         <section className={styles['hero-section']} >
             <div className={styles['hero-container']}>
                 <div className={styles['hero-container-left']}>
                     <h1>
-                      2FC will put wings on your company.
+                      {messages.heroSection}
                     </h1>
                     <h2>
-                      투에프씨는 귀하의 회사에 날개(IT)를 달아드리겠습니다.
+                      {messages.headingSubTitle}
                     </h2>
                     <div className={styles['button-box']}>
                       <div>

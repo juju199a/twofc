@@ -1,8 +1,11 @@
 import styles from "@/styles/layout/navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import LangageToggle from "../ui/LanguageToggle";
 
 export default function NavBar() {
+
+
     return (
         <div className={styles.wrap}>
             <div>
@@ -22,9 +25,7 @@ export default function NavBar() {
                 </ul>
             </nav>
             <div className={styles['button-box']}>
-                <button className={styles['button-disable']}>Korean
-                    <span className={styles['icon-mask']} aria-hidden="true"></span>
-                </button>
+                <LangageToggle />
                 <button className={styles['button']}>Contact</button>
             </div>
         </div>

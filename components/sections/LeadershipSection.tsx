@@ -4,6 +4,7 @@ import styles from '@/styles/sections/leadership.module.css'
 export default function LeadershipSection() {
 
 return (
+    
         <div className={`${common['wrapper-base']} ${styles['wrapper']}`}>
             <section className={`${common['section-base']} ${styles['section']}`}>
                 <div className={`${common['container-base']} ${styles['container']}`}>
