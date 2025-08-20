@@ -7,7 +7,8 @@ export default function Hero() {
   const t = useTranslations('LandingPage.heroSection');
   const messages = {
       heroSection: t('headingTitle'),
-      headingSubTitle : t('headingSubTitle')
+      headingSubTitle : t('headingSubTitle'),
+      bannerHeading: t('bannerHeading')
   };
   
   return (
@@ -18,7 +19,7 @@ export default function Hero() {
                     <h1>
                       {messages.heroSection}
                     </h1>
-                    <h2>
+                    <h2 className={styles['multilang-text']}>
                       {messages.headingSubTitle}
                     </h2>
                     <div className={styles['button-box']}>
@@ -36,7 +37,7 @@ export default function Hero() {
                 </div>
             </div>
             <div className={styles['hero-banner-container']}>
-                <div className={styles['heading']}>2FC는 10개의 고객사와 100건의 프로젝트를 완료하였습니다.</div>
+                <div className={styles['heading']}>{messages.bannerHeading}</div>
                 <div className={styles['clients']}>
                     <Image src="/images/logos/mono/CAZ-Logo.png" alt="hero1" width={32} height={32}></Image>
                     <Image src="/images/logos/mono/CEYEON Technology.png" alt="hero1" width={103} height={32}></Image>

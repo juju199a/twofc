@@ -1,0 +1,103 @@
+.language-select {
+    border: 0px solid #000000;
+}
+
+.language-wrapper {
+    position: relative;
+    display: inline-block;
+    max-width: 140px;
+    width: 140px;
+    background-color: transparent;
+    border: 2px solid var(--primary-blue);
+    border-radius: 12px;
+    color: var(--button-stroke-blue);
+    font-weight: 700;
+    padding: 8px 24px;
+    cursor: pointer;
+}
+
+.language-wrapper:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.language-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+
+.arrow-down {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    transition: transform 0.3s ease; /* 부드럽게 회전 */
+}
+
+.arrow-down.rotate {
+    transform: rotate(180deg); /* 180도 회전 */
+}
+
+.motion-div {
+    position: absolute;          /* absolute - 부모 요소 기준으로 절대 위치 */
+    left:0;
+    top: 100%;
+    z-index: 10;                 /* z-10 - 쌓임 순서 (앞뒤 배치 제어) */
+    margin-top: 4px;          /* mt-2 - 위쪽 여백 0.5rem (8px) */
+    overflow: hidden;            /* overflow-hidden - 넘치는 내용 숨김 */
+    border-radius: 16px;         /* rounded-2xl - 모서리 둥글게 (16px) */
+    border: 1px solid #e5e7eb;   /* border + border-gray-200 - 연한 회색 테두리 (#e5e7eb) */
+    background-color: #ffffff;   /* bg-white - 배경 흰색 */
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); 
+    /* shadow-2xl - 진한 그림자 */
+    outline: none;               /* outline-none - 포커스 외곽선 제거 */
+    max-width: 320px;
+    width: 100%;
+}
+
+.language-listbox {
+    max-height: 260px;  /* max-h-[260px] → 최대 높이를 260px로 제한 */
+    overflow: auto;     /* overflow-auto → 넘칠 경우 스크롤바 자동 표시 */
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+    justify-content: center;
+}
+
+.language-item {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px; /* 8px */
+    padding-left: 6px;  /* 12px */
+    padding-right: 6px; /* 12px */
+    padding-top: 4px;    /* 8px */
+    padding-bottom: 4px; /* 8px */
+    font-weight: 600;
+    transition: background-color 0.2s ease;
+}
+
+.language-item:hover {
+    background-color: var(--color-neutral-200);
+}
+
+.language-item.selected {
+    font-weight: 600;
+}
+
+.language-item.unselected {
+    font-weight: 400;
+}
+.language-item-height{
+    height: 24px;
+}
+.language-item-selected {
+    width: 24px;
+    flex-shrink: 0;
+}
+
+
+

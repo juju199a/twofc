@@ -13,7 +13,7 @@ export const metadata = {
 };
 
 export default async function RootLayout({
-    children,
+  children,
   params
 }: {
   children: React.ReactNode;
@@ -28,17 +28,17 @@ export default async function RootLayout({
     return (
         <html lang={locale}>
             <body>
+                <NextIntlClientProvider>
                 <header>
                     <NavBar />
                 </header>
                 <main>
-                    <NextIntlClientProvider>
-                        {children}
-                    </NextIntlClientProvider>
+                  {children}
                 </main>
                 <footer>
                     <Footer />
                 </footer>
+                </NextIntlClientProvider>
             </body>
         </html>
     );

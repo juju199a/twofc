@@ -2,6 +2,7 @@ import styles from "@/styles/layout/navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import LangageToggle from "../ui/LanguageToggle";
+import LanguageDropdown from "../ui/LanguageDropdown";
 
 export default function NavBar() {
 
@@ -12,7 +13,7 @@ export default function NavBar() {
                 <Image src="/images/2fc_logo.svg" alt="2FC logo" width={160} height={59}></Image>
             </div>
             <nav>
-                <ul className={styles.menu}>
+                <ul className={styles['menu']}>
                     <li>
                         <Link href="/service">IT Service</Link>
                     </li>
@@ -25,7 +26,7 @@ export default function NavBar() {
                 </ul>
             </nav>
             <div className={styles['button-box']}>
-                <LangageToggle />
+                <LanguageDropdown />
                 <button className={styles['button']}>Contact</button>
             </div>
         </div>

@@ -1,0 +1,40 @@
+{
+    "LandingPage": {
+        "heroSection": {
+            "headingTitle": "2FC will put wings on your company.",
+            "headingSubTitle": "トゥーエフシーは御社にITという翼を差し上げます。",
+            "bannerHeading": "2FCは10社の顧客と100件のプロジェクトを完了しました。"
+        },
+        "conceptSection": {
+            "headingTitle": "The 2FC framework makes IT systems simple.",
+            "headingSubTitle": "2FCは豊富で専門的な技術力により、お客様のIT課題を迅速に解決します。",
+            "ITService": {
+                "title": "ITサービス",
+                "description": "お客様のニーズを正確に把握し、開発から運用までカスタマイズされたサービスを提供します。",
+                "summaries": {
+                "0": "要件分析とコンサルティング",
+                "1": "カスタムシステムの設計と開発",
+                "2": "継続的な保守と技術サポート"
+                }
+            },
+            "Solutions": {
+                "title": "ソリューション",
+                "description": "蓄積された技術力で完成した独自フレームワークを基盤に、迅速で簡単なソリューションを提供します。",
+                "summaries": {
+                "0": "短期間でのソリューション実装",
+                "1": "直感的に使える設計",
+                "2": "フレームワークによる自動化"
+                }
+            },
+            "Devices": {
+                "title": "デバイス",
+                "description": "機器通信に特化した専門家の技術に基づき、精密で安定したシステムを提供します。",
+                "summaries": {
+                "0": "産業現場に特化した通信開発",
+                "1": "多様な産業プロトコル対応",
+                "2": "ミドルウェアからアプリまで統合"
+                }
+            }
+        }
+    }
+}

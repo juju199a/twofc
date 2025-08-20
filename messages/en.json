@@ -2,7 +2,39 @@
     "LandingPage": {
         "heroSection": {
             "headingTitle": "2FC will put wings on your company.",
-            "headingSubTitle": "2FC empowers your business with the wings of IT."
+            "headingSubTitle": "2FC empowers your business with the wings of IT.",
+            "bannerHeading": "2FC has completed 100 projects with 10 clients."
+        },
+        "conceptSection": {
+            "headingTitle": "The 2FC framework makes IT systems simple.",
+            "headingSubTitle": "2FC quickly solves your IT challenges with strong expertise and advanced skills.",
+            "ITService": {
+                "title": "IT Serivce",
+                "description": "We understand your needs and provide tailored services from development to operation.",
+                "summaries": {
+                    "0": "Analysis & Consulting", 
+                    "1": "Design & Development", 
+                    "2": "Maintenance & Support"
+                }
+            }, 
+            "Solutions": {
+                "title": "Solutions",
+                "description": "With our own framework built on years of expertise, we deliver fast and easy solutions.",
+                "summaries": {
+                    "0": "Fast solution delivery", 
+                    "1": "Intuitive design", 
+                    "2": "Framework automation"
+                }
+            }, 
+            "Devices": {
+                "title": "Devices",
+                "description": "With expertise in equipment communication, we deliver precise and reliable systems.",
+                "summaries": {
+                    "0": "Industrial communication", 
+                    "1": "Protocol support", 
+                    "2": "Integrated solutions"
+                }
+            }
         }
     }
 }

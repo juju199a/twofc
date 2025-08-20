@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'Pretendard', sans-serif;
   src: url('/fonts/PretendardVariable.woff2') format('woff2');
@@ -14,7 +18,8 @@
     --button-fill-blue: #1682C5;
     --button-stroke-blue: #1E69A1;
     --card-stroke-200: #D4E0ED;
-    --color-primary: #1E69A1;
+    /* --color-primary: #1E69A1; */
+    --primary-blue: #1E69A1;
     --bg-gray-100: #F8F9FB;
     --color-white: #ffffff;
     --color-black: #000000;
