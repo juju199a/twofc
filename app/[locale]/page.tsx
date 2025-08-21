@@ -1,4 +1,4 @@
-import CoreConcept from '@/components/sections/CoreConcept';
+import ConceptSection from '@/components/sections/ConceptSection';
 import FeaturedProjectSection from '@/components/sections/FeaturedProjectsSection';
 import FlyFrameworkSection from '@/components/sections/FlyFrameworkSection';
 import HeroSection from '@/components/sections/HeroSection';
@@ -12,7 +12,7 @@ export default function Page() {
   return (
     <>
       <div className="reveal"><HeroSection /></div>
-      <div className="reveal"><CoreConcept /></div>
+      <div className="reveal"><ConceptSection /></div>
       <div className="reveal"><FeaturedProjectSection /></div>
       <div className="reveal"><TechnologyStackSection /></div>
       <div className="reveal"><FlyFrameworkSection /></div>

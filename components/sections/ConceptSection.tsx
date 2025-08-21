@@ -1,8 +1,8 @@
-import styles from '@/styles/sections/coreconcept.module.css';
+import styles from '@/styles/sections/concept.module.css';
 import ConceptCard from '../ui/ConceptCard';
 import { useTranslations } from 'next-intl';
 
-export default function CoreConcept() {
+export default function ConceptSection() {
 
     const t = useTranslations('LandingPage.conceptSection');
     const messages = {

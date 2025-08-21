@@ -1,7 +1,6 @@
 import styles from "@/styles/layout/navbar.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import LangageToggle from "../ui/LanguageToggle";
 import LanguageDropdown from "../ui/LanguageDropdown";
 
 export default function NavBar() {
@@ -10,7 +9,7 @@ export default function NavBar() {
     return (
         <div className={styles.wrap}>
             <div>
-                <Image src="/images/2fc_logo.svg" alt="2FC logo" width={160} height={59}></Image>
+                <Image src="/images/2fc_logo_full.png" alt="2FC logo" width={140} height={52}></Image>
             </div>
             <nav>
                 <ul className={styles['menu']}>
