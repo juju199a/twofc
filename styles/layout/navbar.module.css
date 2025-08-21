@@ -6,7 +6,7 @@
     margin: 8px auto;
     max-width: 1200px;
     width: 100%;
-    border-bottom: 1px solid var(--bg-gray-100);
+    /* border-bottom: 1px solid var(--bg-gray-100); */
 }
 
 .logo {

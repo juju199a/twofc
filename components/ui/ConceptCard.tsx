@@ -49,8 +49,8 @@ export default function ConceptCard({category, title, description, summaries}: C
                     ))}
                 </div>
             </div>
-            <div className={styles['footer']}>
-                <button>Learn more</button>
+            <div className={styles['button-box']}>
+                <button className={styles['button']}>Learn more</button>
             </div>
         </div>
 
