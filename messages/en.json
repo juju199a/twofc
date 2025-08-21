@@ -35,6 +35,62 @@
                     "2": "Integrated solutions"
                 }
             }
+        },
+        "featuredProjectsSection": {
+            "project1": {
+                "category": "HaruFilm",
+                "title": "Haru Film",
+                "subtitle": "Self-Photo Studio 개발",
+                "description": "다국어 지원 셀프포토 시스템을 개발하여 국내외 500여 가맹점에 설치, 원격 관리와 실시간 모니터링을 지원합니다."
+            },
+            "project2": {
+                "category": "CAZ",
+                "title": "CAZ 태국",
+                "subtitle": "HR System 개발",
+                "description": "인사카드 등록부터 근무 관리, 인사 평가, 채용과 이동 및 퇴직 이력, 급여 계산과 보고서 출력까지 인사 노무 전반 관리를 지원합니다."
+            },
+            "project3": {
+                "category": "2FCFlyOffice",
+                "title": "2FC",
+                "subtitle": "Fly Office 개발",
+                "description": "자재와 물품에 대한 구매요청을 전자결재, 발주, 입고, 세금계산서, 입금 단계로 나눠 처리하며, 국세청과 은행 연동을 지원합니다."
+            },
+            "project4": {
+                "category": "SamsungKiheung",
+                "title": "삼성기흥",
+                "subtitle": "자동화 카트 미들웨어 개발",
+                "description": "반도체 공정의 박스 이동을 자동화하는 컨트롤러로, 장치 제어와 무선 통신, 로그 기록 기능을 지원합니다."
+            },
+            "project5": {
+                "category": "LGEngergy",
+                "title": "LG에너지솔루션",
+                "subtitle": "미들웨어 개발",
+                "description": "배터리 공정 자동화를 위한 컨트롤러로, RFID 리더기 제어와 데이터 전달, 필터링 및 통신 기록 기능을 지원합니다."
+            },
+            "project6": {
+                "category": "SKHynics",
+                "title": "SK하이닉스",
+                "subtitle": "미들웨어 SECS 통신 개발",
+                "description": "생산 공정에서 장비를 자동으로 제어하기 위한 컨트롤러로, 장비 초기화와 상태 알림, 통신 기능을 지원합니다."
+            },
+            "project7": {
+                "category": "SamsungKiheung",
+                "title": "삼성기흥",
+                "subtitle": "자동화 카트 미들웨어 개발",
+                "description": "반도체 공정의 박스 이동을 자동화하는 컨트롤러로, 장치 제어와 무선 통신, 로그 기록 기능을 지원합니다."
+            },
+            "project8": {
+                "category": "LGEngergy",
+                "title": "LG에너지솔루션",
+                "subtitle": "미들웨어 개발",
+                "description": "배터리 공정 자동화를 위한 컨트롤러로, RFID 리더기 제어와 데이터 전달, 필터링 및 통신 기록 기능을 지원합니다."
+            },
+            "project9": {
+                "category": "SKHynics",
+                "title": "SK하이닉스",
+                "subtitle": "미들웨어 SECS 통신 개발",
+                "description": "생산 공정에서 장비를 자동으로 제어하기 위한 컨트롤러로, 장비 초기화와 상태 알림, 통신 기능을 지원합니다."
+            }
         }
     }
 }
