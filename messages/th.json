@@ -40,57 +40,82 @@
             "project1": {
                 "category": "HaruFilm",
                 "title": "Haru Film",
-                "subtitle": "Self-Photo Studio 개발",
-                "description": "다국어 지원 셀프포토 시스템을 개발하여 국내외 500여 가맹점에 설치, 원격 관리와 실시간 모니터링을 지원합니다."
+                "subtitle": "พัฒนา Self-Photo Studio",
+                "description": "ระบบถ่ายภาพด้วยตนเองหลายภาษา ติดตั้งกว่า 500 สาขา รองรับการจัดการและมอนิเตอร์แบบเรียลไทม์"
             },
             "project2": {
                 "category": "CAZ",
-                "title": "CAZ 태국",
-                "subtitle": "HR System 개발",
-                "description": "인사카드 등록부터 근무 관리, 인사 평가, 채용과 이동 및 퇴직 이력, 급여 계산과 보고서 출력까지 인사 노무 전반 관리를 지원합니다."
+                "title": "CAZ Thailand",
+                "subtitle": "พัฒนา HR System",
+                "description": "จัดการบุคคลครบวงจร ตั้งแต่ข้อมูล การทำงาน ประเมินผล สรรหา โอนย้าย ออกงาน ถึงเงินเดือนและรายงาน"
             },
             "project3": {
                 "category": "2FCFlyOffice",
                 "title": "2FC",
-                "subtitle": "Fly Office 개발",
-                "description": "자재와 물품에 대한 구매요청을 전자결재, 발주, 입고, 세금계산서, 입금 단계로 나눠 처리하며, 국세청과 은행 연동을 지원합니다."
+                "subtitle": "พัฒนา Fly Office",
+                "description": "จัดการคำขอซื้อวัสดุครบขั้นตอน ตั้งแต่อนุมัติ ออกใบสั่ง รับเข้า ถึงใบกำกับและการชำระ เชื่อมต่อกรมสรรพากรและธนาคาร"
             },
             "project4": {
                 "category": "SamsungKiheung",
-                "title": "삼성기흥",
-                "subtitle": "자동화 카트 미들웨어 개발",
-                "description": "반도체 공정의 박스 이동을 자동화하는 컨트롤러로, 장치 제어와 무선 통신, 로그 기록 기능을 지원합니다."
+                "title": "Samsung Kiheung",
+                "subtitle": "พัฒนา Middleware รถเข็นอัตโนมัติ",
+                "description": "คอนโทรลเลอร์ย้ายกล่องในกระบวนการผลิต รองรับการควบคุมอุปกรณ์ การสื่อสารไร้สาย และการบันทึก Log"
             },
             "project5": {
                 "category": "LGEngergy",
-                "title": "LG에너지솔루션",
-                "subtitle": "미들웨어 개발",
-                "description": "배터리 공정 자동화를 위한 컨트롤러로, RFID 리더기 제어와 데이터 전달, 필터링 및 통신 기록 기능을 지원합니다."
+                "title": "LG Energy Solution",
+                "subtitle": "พัฒนา Middleware",
+                "description": "คอนโทรลเลอร์อัตโนมัติสำหรับการผลิตแบตเตอรี่ รองรับ RFID การส่งข้อมูล และการบันทึกการสื่อสาร"
             },
             "project6": {
                 "category": "SKHynics",
-                "title": "SK하이닉스",
-                "subtitle": "미들웨어 SECS 통신 개발",
-                "description": "생산 공정에서 장비를 자동으로 제어하기 위한 컨트롤러로, 장비 초기화와 상태 알림, 통신 기능을 지원합니다."
+                "title": "SK hynix",
+                "subtitle": "พัฒนา Middleware SECS",
+                "description": "คอนโทรลเลอร์ควบคุมอุปกรณ์ในสายการผลิต รองรับการเริ่มต้นอุปกรณ์ แจ้งสถานะ และการสื่อสาร"
             },
             "project7": {
                 "category": "SamsungKiheung",
-                "title": "삼성기흥",
-                "subtitle": "자동화 카트 미들웨어 개발",
-                "description": "반도체 공정의 박스 이동을 자동화하는 컨트롤러로, 장치 제어와 무선 통신, 로그 기록 기능을 지원합니다."
+                "title": "Samsung Kiheung",
+                "subtitle": "พัฒนา Middleware รถเข็นอัตโนมัติ",
+                "description": "คอนโทรลเลอร์ย้ายกล่องในกระบวนการผลิต รองรับการควบคุมอุปกรณ์ การสื่อสารไร้สาย และการบันทึก Log"
             },
             "project8": {
                 "category": "LGEngergy",
-                "title": "LG에너지솔루션",
-                "subtitle": "미들웨어 개발",
-                "description": "배터리 공정 자동화를 위한 컨트롤러로, RFID 리더기 제어와 데이터 전달, 필터링 및 통신 기록 기능을 지원합니다."
+                "title": "LG Energy Solution",
+                "subtitle": "พัฒนา Middleware",
+                "description": "คอนโทรลเลอร์อัตโนมัติสำหรับการผลิตแบตเตอรี่ รองรับ RFID การส่งข้อมูล และการบันทึกการสื่อสาร"
             },
             "project9": {
                 "category": "SKHynics",
-                "title": "SK하이닉스",
-                "subtitle": "미들웨어 SECS 통신 개발",
-                "description": "생산 공정에서 장비를 자동으로 제어하기 위한 컨트롤러로, 장비 초기화와 상태 알림, 통신 기능을 지원합니다."
+                "title": "SK hynix",
+                "subtitle": "พัฒนา Middleware SECS",
+                "description": "คอนโทรลเลอร์ควบคุมอุปกรณ์ในสายการผลิต รองรับการเริ่มต้นอุปกรณ์ แจ้งสถานะ และการสื่อสาร"
             }
+        },
+        "flyFrameworkSection": {
+            "headingTitle": "Fly Framework",
+            "headingSubTitle": "เฟรมเวิร์กของ 2FC พัฒนาขึ้นจากประสบการณ์กว่า 13 ปีในการสร้างระบบหลากหลายรูปแบบ มอบโซลูชันที่ปรับแต่งได้ตรงกับความต้องการของธุรกิจ",
+            "Speed": {
+                "title": "พัฒนาได้รวดเร็ว",
+                "description": "เพิ่มความเร็วในการพัฒนา ด้วยเทมเพลตฟังก์ชันที่ใช้บ่อย เช่น CRUD และการค้นหา"
+            }, 
+            "CostSaving": {
+                "title": "ประหยัดค่าใช้จ่าย",
+                "description": "ลดต้นทุนการพัฒนา ด้วยการนำโมดูลมาตรฐานที่ผ่านการตรวจสอบแล้วกลับมาใช้ซ้ำ"
+            },
+            "Integration": {
+                "title": "รองรับการเชื่อมต่อภายนอก",
+                "description": "มีฟังก์ชันการเชื่อมต่อกับกรมสรรพากร ธนาคาร ERP และอื่น ๆ มาให้อย่างครบถ้วน"
+            }, 
+            "Component": {
+                "title": "โครงสร้างแบบคอมโพเนนต์",
+                "description": "ออกแบบทั้งฝั่ง Frontend และ Backend แบบคอมโพเนนต์ ทำให้ง่ายต่อการดูแลและบำรุงรักษา"
+            }, 
+            "Operations": {
+                "title": "ฟังก์ชันการใช้งานครบถ้วน",
+                "description": "มีฟังก์ชันสำคัญสำหรับการปฏิบัติงาน เช่น การจัดการสิทธิ์ การติดตามประวัติ และการตั้งค่าเมนู ติดตั้งมาให้พร้อม"
+            }  
         }
+
     }
 }

@@ -33,7 +33,7 @@ export default function ProjectCard({category, title, subtitle, description}: Pr
                     <div className={styles['title']}>{title}</div>
                     <div className={styles['subtitle']}>{subtitle}</div>
                 </div>
-                <div className={styles['description']}>
+                <div className={`${styles['description']} ${styles['multilang-text']}`}>
                     {description}
                 </div>
             </div>

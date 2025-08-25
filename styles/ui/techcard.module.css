@@ -1,0 +1,104 @@
+.tech {
+    max-width: 270px;
+    max-height: 574px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 18px;
+
+    /* border: 1px solid var(--color-neutral-200);
+    border-radius: 16px;
+    box-shadow: 0 4px 4px rgba(0,0,0,0.25); */
+}
+
+.tech .icon-box {
+    max-width: 112px;
+    max-height: 112px;
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid var(--color-neutral-200);
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box .icon {
+    width: 62px;
+    height: 62px;
+    
+    color: var(--primary-blue);
+
+}
+
+.tech .title {
+    max-width: 270px;
+    max-height: 29px;
+    width: 100%;
+    height: 100%;
+
+    color: var(--primary-blue);
+    font-size: 24px;
+    font-weight: 700;
+
+    text-align: center;
+
+}
+
+.tech .tech-box {
+    max-width: 270px;
+    max-height: 397px;
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid var(--color-neutral-200);
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.tech .tech-box {
+    max-width: 270px;
+    max-height: 397px;
+    width: 100%;
+    height: 100%;
+
+    border: 1px solid var(--color-neutral-200);
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    transition: box-shadow 0.3ms, border 0.3ms;
+}
+
+.tech-box:hover {
+    box-shadow: 0 0 1px rgba(0,0,0,0.25);
+    border: 2px solid var(--color-neutral-200);
+}
+
+
+.tech-box .tech-image {
+    max-width: 82px;
+    max-height: 82px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.tech-image .image {
+    object-fit: contain;
+    /* filter: grayscale(100%);
+    transition: filter 180ms ease;  */
+}
+

@@ -1,5 +1,6 @@
 import common from '@/styles/sections/sections.module.css'
 import styles from '@/styles/sections/technologystack.module.css'
+import TechCard from '../ui/TechCard'
 
 export default function TechnologyStackSection() {
 
@@ -13,10 +14,10 @@ export default function TechnologyStackSection() {
                         </div>
                     </div>
                     <div className={styles['stacks']}>
-                        <div className={styles['stack']}>Stack1</div>
-                        <div className={styles['stack']}>Stack2</div>
-                        <div className={styles['stack']}>Stack3</div>
-                        <div className={styles['stack']}>Stack4</div>
+                        <TechCard category="FrontEnd" title="Front End"/>
+                        <TechCard category="BackEnd" title="Back End"/>
+                        <TechCard category="Database" title="Database"/>
+                        <TechCard category="Server" title="Server"/>
                     </div>
                 </div>
             </section>

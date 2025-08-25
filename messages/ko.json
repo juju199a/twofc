@@ -91,6 +91,30 @@
                 "subtitle": "미들웨어 SECS 통신 개발",
                 "description": "생산 공정에서 장비를 자동으로 제어하기 위한 컨트롤러로, 장비 초기화와 상태 알림, 통신 기능을 지원합니다."
             }
+        },
+        "flyFrameworkSection": {
+            "headingTitle": "Fly Framework",
+            "headingSubTitle": "2FC의 프레임워크는 13년간 여러분야 시스템을 개발하면서 만들어진 축적된 기술로 기업에서 필요한 여러가지 맞춤형 솔루션으로 제공 하고 있습니다.",
+            "Speed": {
+                "title": "빠른 개발",
+                "description": "CRUD, 검색 등 자주 쓰는 기능을 템플릿으로 제공해 개발 속도를 높입니다."
+            }, 
+            "CostSaving": {
+                "title": "비용 절감",
+                "description": "검증된 공통 모듈을 재사용해 개발 비용을 최소화합니다."
+            },
+            "Integration": {
+                "title": "외부 연동 내장",
+                "description": "국세청, 은행, ERP 등과의 연동 기능이 기본 포함되어 있습니다."
+            }, 
+            "Component": {
+                "title": "컴포넌트 기반 구조",
+                "description": "프런트와 백엔드를 컴포넌트 중심으로 구성해 유지보수가 쉽습니다."
+            }, 
+            "Operations": {
+                "title": "운영 기능 기본 탑재",
+                "description": "권한 관리, 이력 추적, 메뉴 설정 등 운영에 필요한 기능이 내장되어 있습니다."
+            }  
         }
     }
 }

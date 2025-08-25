@@ -36,61 +36,85 @@
                 }
             }
         },
-        "featuredProjectsSection": {
+       "featuredProjectsSection": {
             "project1": {
                 "category": "HaruFilm",
                 "title": "Haru Film",
-                "subtitle": "Self-Photo Studio 개발",
-                "description": "다국어 지원 셀프포토 시스템을 개발하여 국내외 500여 가맹점에 설치, 원격 관리와 실시간 모니터링을 지원합니다."
+                "subtitle": "Self-Photo Studio Development",
+                "description": "Multilingual self-photo system deployed in 500+ branches worldwide, with remote management and real-time monitoring."
             },
             "project2": {
                 "category": "CAZ",
-                "title": "CAZ 태국",
-                "subtitle": "HR System 개발",
-                "description": "인사카드 등록부터 근무 관리, 인사 평가, 채용과 이동 및 퇴직 이력, 급여 계산과 보고서 출력까지 인사 노무 전반 관리를 지원합니다."
+                "title": "CAZ Thailand",
+                "subtitle": "HR System Development",
+                "description": "End-to-end HR management from employee records and work tracking to evaluations, recruitment, payroll, and reporting."
             },
             "project3": {
                 "category": "2FCFlyOffice",
                 "title": "2FC",
-                "subtitle": "Fly Office 개발",
-                "description": "자재와 물품에 대한 구매요청을 전자결재, 발주, 입고, 세금계산서, 입금 단계로 나눠 처리하며, 국세청과 은행 연동을 지원합니다."
+                "subtitle": "Fly Office Development",
+                "description": "Manages purchase requests through approval, ordering, receipt, invoicing, and payment, integrated with tax and banking systems."
             },
             "project4": {
                 "category": "SamsungKiheung",
-                "title": "삼성기흥",
-                "subtitle": "자동화 카트 미들웨어 개발",
-                "description": "반도체 공정의 박스 이동을 자동화하는 컨트롤러로, 장치 제어와 무선 통신, 로그 기록 기능을 지원합니다."
+                "title": "Samsung Kiheung",
+                "subtitle": "Automated Cart Middleware",
+                "description": "Controller automating box transport in semiconductor production, supporting device control, wireless communication, and logging."
             },
             "project5": {
                 "category": "LGEngergy",
-                "title": "LG에너지솔루션",
-                "subtitle": "미들웨어 개발",
-                "description": "배터리 공정 자동화를 위한 컨트롤러로, RFID 리더기 제어와 데이터 전달, 필터링 및 통신 기록 기능을 지원합니다."
+                "title": "LG Energy Solution",
+                "subtitle": "Middleware Development",
+                "description": "Automation controller for battery processes, with RFID reader control, data transfer, filtering, and communication logging."
             },
             "project6": {
                 "category": "SKHynics",
-                "title": "SK하이닉스",
-                "subtitle": "미들웨어 SECS 통신 개발",
-                "description": "생산 공정에서 장비를 자동으로 제어하기 위한 컨트롤러로, 장비 초기화와 상태 알림, 통신 기능을 지원합니다."
+                "title": "SK hynix",
+                "subtitle": "SECS Communication Middleware",
+                "description": "Controller for automated equipment control in production, with initialization, status notifications, and communication support."
             },
             "project7": {
                 "category": "SamsungKiheung",
-                "title": "삼성기흥",
-                "subtitle": "자동화 카트 미들웨어 개발",
-                "description": "반도체 공정의 박스 이동을 자동화하는 컨트롤러로, 장치 제어와 무선 통신, 로그 기록 기능을 지원합니다."
+                "title": "Samsung Kiheung",
+                "subtitle": "Automated Cart Middleware",
+                "description": "Controller automating box transport in semiconductor production, supporting device control, wireless communication, and logging."
             },
             "project8": {
                 "category": "LGEngergy",
-                "title": "LG에너지솔루션",
-                "subtitle": "미들웨어 개발",
-                "description": "배터리 공정 자동화를 위한 컨트롤러로, RFID 리더기 제어와 데이터 전달, 필터링 및 통신 기록 기능을 지원합니다."
+                "title": "LG Energy Solution",
+                "subtitle": "Middleware Development",
+                "description": "Automation controller for battery processes, with RFID reader control, data transfer, filtering, and communication logging."
             },
             "project9": {
                 "category": "SKHynics",
-                "title": "SK하이닉스",
-                "subtitle": "미들웨어 SECS 통신 개발",
-                "description": "생산 공정에서 장비를 자동으로 제어하기 위한 컨트롤러로, 장비 초기화와 상태 알림, 통신 기능을 지원합니다."
+                "title": "SK hynix",
+                "subtitle": "SECS Communication Middleware",
+                "description": "Controller for automated equipment control in production, with initialization, status notifications, and communication support."
             }
+            }, 
+        "flyFrameworkSection": {
+            "headingTitle": "Fly Framework",
+            "headingSubTitle": "The 2FC framework is built on 13 years of accumulated expertise in developing diverse systems, delivering tailored solutions that meet the unique needs of businesses.",
+            "Speed": {
+                "title": "Fast Development",
+                "description": "Boosts development speed by providing templates for frequently used functions such as CRUD and search."
+            }, 
+            "CostSaving": {
+                "title": "Cost Saving",
+                "description": "Minimizes development costs through the reuse of proven common modules."
+            },
+            "Integration": {
+                "title": "Built-in Integration",
+                "description": "Comes with built-in integration features for the National Tax Service, banks, ERP, and more."
+            }, 
+            "Component": {
+                "title": "Component-based Architecture",
+                "description": "Organizes frontend and backend around components, making maintenance simple and efficient."
+            }, 
+            "Operations": {
+                "title": "Essential Operations Features",
+                "description": "Includes core functions for operations such as access control, history tracking, and menu configuration."
+            }  
         }
     }
 }
