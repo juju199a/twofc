@@ -45,30 +45,20 @@
 }
 
 .news-list {
-    max-width: 1200px;
     width: 100%;
     height: 100%;
 
-    display: flex;
+    overflow: hidden;
+  
+    /* display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 60px;
+    align-items: flex-start; */
 }
 
-.news-list .news {
-    max-width: 340px;
-    max-height: 262px;
-    width: 100%;
-    height: 100%;
-
-    border: 1px solid var(--card-stroke-200);
-    border-radius: 16px;
-
+.track {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    gap: 80px;
 }
 
 

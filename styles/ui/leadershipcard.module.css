@@ -1,0 +1,90 @@
+.card {
+  max-width: 368px;
+  max-height: 419px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--card-stroke-200);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden; /* 👈 radius 안쪽으로 잘리게 */
+}
+
+/* 콘텐츠 영역 */
+.card .container{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 이미지는 카드 폭에 맞추고 비율 유지 권장 */
+.container .image{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+/* Footer: 카드 안쪽 하단 고정 */
+.card .footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 28px;
+
+  /* 높이와 패딩은 상황에 맞게 조절 */
+  padding: 28px 45px;
+  background: var(--color-white);
+
+  /* 카드와 동일한 하단 라운드(시각적으로 매끈) */
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  /* 초기에는 아래로 내려가 숨김 */
+  transform: translateY(100%);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  will-change: transform; /* 부드러운 애니메이션 */
+}
+
+/* 카드 hover 시 footer 끌어올리기 */
+.card:hover .footer {
+  transform: translateY(20%);
+  /* 떠오르는 느낌을 살짝 */
+  box-shadow: 0 -8px 24px rgba(0,0,0,0.12);
+}
+
+
+
+/* 사용자가 모션 줄이기 설정한 경우 배려 */
+@media (prefers-reduced-motion: reduce) {
+  .card .footer {
+    transition: none;
+  }
+}
+
+.footer .name {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-black);
+}
+
+.footer .title {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-neutral-600);
+}
+
+.footer .email {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--button-fill-blue);
+}
+

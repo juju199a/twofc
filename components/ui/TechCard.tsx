@@ -59,7 +59,7 @@ export default function TechCard({category, title}:TechCardProps) {
     const images = imageMap[category];
 
     return (
-        <div className={styles['tech']}>
+        <div className={styles['card']}>
             <div className={styles['icon-box']}>
                 <div className={styles['icon']}>
                     {Icons[category]}

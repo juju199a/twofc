@@ -37,7 +37,7 @@ const Icons: Record<FrameworkCardProps["category"], JSX.Element> = {
 export default function FrameworkCard({category, title, description}: FrameworkCardProps) {
 
     return (
-        <div className={styles['framework']}>
+        <div className={styles['card']}>
             <div className={styles['container']}>
                 <div className={styles['title-box']}>
                     <div className={styles['icon']}>

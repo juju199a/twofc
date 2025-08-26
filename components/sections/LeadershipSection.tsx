@@ -1,10 +1,10 @@
 import common from '@/styles/sections/sections.module.css'
 import styles from '@/styles/sections/leadership.module.css'
+import LeadershipCard from '../ui/LeadershipCard'
 
 export default function LeadershipSection() {
 
 return (
-    
         <div className={`${common['wrapper-base']} ${styles['wrapper']}`}>
             <section className={`${common['section-base']} ${styles['section']}`}>
                 <div className={`${common['container-base']} ${styles['container']}`}>
@@ -18,9 +18,9 @@ return (
                         </div>
                     </div>
                     <div className={styles['staffs']}>
-                        <div className={styles['staff']}>Staff1</div>
-                        <div className={styles['staff']}>Staff2</div>
-                        <div className={styles['staff']}>Staff3</div>
+                        <LeadershipCard category='PARK' name='Jun-ho Park' title='Software Team Leader' email='abc@2fc.co.kr'/>
+                        <LeadershipCard category='LEE' name='Sun-hong Lee' title='CEO' email='abc@2fc.co.kr'/>
+                        <LeadershipCard category='KIM' name='Ki-dong Kim' title='Hardware Team Leader' email='abc@2fc.co.kr'/>
                     </div>
                 </div>
             </section>    
