@@ -1,6 +1,7 @@
 import common from '@/styles/sections/sections.module.css'
 import styles from '@/styles/sections/flyframework.module.css'
 import FrameworkCard from '../ui/FrameworkCard'
+import AnimatedBarChart from '../ui/AnimatedBarChart';
 import { useTranslations } from 'next-intl';
 
 export default function FlyFrameworkSection() {
@@ -31,7 +32,7 @@ export default function FlyFrameworkSection() {
                     </div>
                     <div className={styles['contents']}>
                         <div className={styles['media']}>
-                            <img src="/images/flyframework.png" className={styles['image']}/>
+                            <AnimatedBarChart />
                         </div>
                         <div className={styles['features']}>
                             <FrameworkCard category="Speed" title={speed('title')} description={speed('description')} />
@@ -40,7 +41,6 @@ export default function FlyFrameworkSection() {
                             <FrameworkCard category="Component" title={component('title')} description={component('description')} />
                             <FrameworkCard category="Operations" title={operations('title')} description={operations('description')} />
                         </div>
-                        
                     </div>
                 </div>
             </section>
