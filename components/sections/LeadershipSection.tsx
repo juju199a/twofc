@@ -1,20 +1,26 @@
 import common from '@/styles/sections/sections.module.css'
 import styles from '@/styles/sections/leadership.module.css'
 import LeadershipCard from '../ui/LeadershipCard'
+import {useTranslations} from 'next-intl';
 
 export default function LeadershipSection() {
 
-return (
+    const t = useTranslations('LandingPage.leadershipSection');
+    const messages = {
+        title: t('headingTitle'),
+        subtitle : t('headingSubTitle'),
+    };
+
+    return (
         <div className={`${common['wrapper-base']} ${styles['wrapper']}`}>
             <section className={`${common['section-base']} ${styles['section']}`}>
                 <div className={`${common['container-base']} ${styles['container']}`}>
                     <div className={styles['heading']}>
                         <div className={styles['big']}>
-                            Leadership
+                            {messages.title}
                         </div>
                         <div className={styles['small']}>
-                            우리 팀은 고객의 성공을 가장 중요한 가치로 여기며, <br/>
-                            명확한 목표와 실행력으로 모든 가능성을 현실로 만듭니다.
+                            {messages.subtitle}
                         </div>
                     </div>
                     <div className={styles['staffs']}>

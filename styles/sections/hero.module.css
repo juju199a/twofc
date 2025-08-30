@@ -53,13 +53,6 @@
     /* border: 2px solid blue;    확인용 */
 }
 
-.hero-container-right {
-    position: relative;
-    max-width: 749px;
-    width: 100%;
-    /* border: 2px solid blue;    확인용 */
-}
-
 .hero-container-left h1{
     margin: 0;
     color: var(--color-neutral-900);
@@ -117,22 +110,6 @@
     opacity: 85%; /* hover 시 색상 */
 }
 
-.hero1 {
-    position: absolute;
-    top: 68px;
-    width: 627px;
-    height: 533px;
-    border: 1px solid var(--color-neutral-300);
-    border-radius: 8px;
-    z-index: 2;
-}
-
-.hero2 {
-    position: absolute;
-    left:68px;
-    z-index:1;
-}
-
 .hero-banner-container {
     display: flex;
     flex-direction: column;
@@ -156,6 +133,59 @@
     gap: 48px;
     /* border: 2px solid blue;   확인용 */
 }
+
+/* 무한 루프 컨테이너 */
+.clientsLoop {
+  --speed: 30s;                      /* 커질수록 느림 */
+  --gap: clamp(2rem, 4vw, 4rem);     /* 로고 간격 */
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  /* 가장자리 페이드(옵션) */
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
+}
+
+/* 한 개 트랙 + 내용 2세트 */
+.track {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  display: inline-flex;   /* 폭이 콘텐츠에 맞게 늘어남 */
+  gap: var(--gap);
+  white-space: nowrap;
+  width: max-content;     /* 자신의 실제 너비 유지 */
+  will-change: transform;
+  animation: marquee var(--speed) linear infinite;
+}
+
+/* li는 줄바꿈/수축 금지 */
+.track > li {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+/* Next/Image wrapper가 inline 요소라 간격 문제 예방 */
+.track :global(img) {
+  display: block;
+}
+
+/* Sheraton 두 조각 나란히 */
+.sheraton { display: inline-flex; align-items: center; gap: .5rem; }
+
+/* 오른쪽 → 왼쪽: 200% 중 절반(-50%)만 이동하면 무한루프 */
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+
+/* 접근성 */
+@media (prefers-reduced-motion: reduce) {
+  .track { animation: none; }
+}
+
 
 .multilang-text {
   word-break: break-word;

@@ -4,7 +4,6 @@ import styles from "@/styles/ui/languagedropdown.module.css";
 import { AnimatePresence, motion } from "framer-motion";
 import {useRouter, usePathname, useSearchParams} from 'next/navigation';
 import { useLocale } from "next-intl";
-import path from "path";
 
 interface Language {
     code: string;
@@ -144,7 +143,8 @@ export default function LanguageDropdown() {
         { code: "ko", label: "Korean"},
         { code: "en", label: "English"},
         { code: "ja", label: "Japanese"},
-        { code: "th", label: "Thai"}
+        { code: "th", label: "Thai"},
+        { code: "vi", label: "Vietnamese"}
     ];
 
     // 현재 path에서 locale(첫 세그먼트)만 교체

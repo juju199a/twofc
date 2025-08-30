@@ -1,0 +1,130 @@
+{
+  "LandingPage": {
+    "heroSection": {
+      "headingTitle": "2FC sẽ chắp cánh cho công ty bạn.",
+      "headingSubTitle": "2FC sẽ gắn cánh (CNTT) cho doanh nghiệp của bạn.",
+      "bannerHeading": "2FC đã hoàn tất 100 dự án cùng 10 khách hàng."
+    },
+    "conceptSection": {
+      "headingTitle": "Khung 2FC giúp hệ thống CNTT đơn giản.",
+      "headingSubTitle": "2FC dùng kỹ thuật chuyên sâu để nhanh chóng giải quyết thách thức CNTT.",
+      "ITService": {
+        "title": "Dịch vụ CNTT",
+        "description": "Hiểu đúng nhu cầu khách hàng, cung cấp dịch vụ tùy chỉnh từ phát triển đến vận hành.",
+        "summaries": {
+          "0": "Phân tích yêu cầu và tư vấn",
+          "1": "Thiết kế và phát triển hệ thống riêng",
+          "2": "Bảo trì liên tục và hỗ trợ kỹ thuật"
+        }
+      },
+      "Solutions": {
+        "title": "Giải pháp",
+        "description": "Dựa trên khung đã tích lũy, chúng tôi mang đến giải pháp nhanh và dễ dùng.",
+        "summaries": {
+          "0": "Triển khai giải pháp trong thời gian ngắn",
+          "1": "Thiết kế trực quan, dễ sử dụng",
+          "2": "Khung mang lại tự động hóa đơn giản"
+        }
+      },
+      "Devices": {
+        "title": "Thiết bị",
+        "description": "Dựa trên kỹ thuật chuyên gia giao tiếp thiết bị, xây dựng hệ thống chính xác và ổn định.",
+        "summaries": {
+          "0": "Phát triển giao tiếp chuyên cho nhà máy",
+          "1": "Hỗ trợ nhiều giao thức công nghiệp",
+          "2": "Tích hợp từ middleware đến ứng dụng"
+        }
+      }
+    },
+    "featuredProjectsSection": {
+      "project1": {
+        "category": "HaruFilm",
+        "title": "Haru Film",
+        "subtitle": "Phát triển Self-Photo Studio",
+        "description": "Phát triển hệ thống photo tự động đa ngôn ngữ, lắp đặt tại hơn 500 cửa hàng, hỗ trợ quản lý từ xa và giám sát trực tiếp."
+      },
+      "project2": {
+        "category": "CAZ",
+        "title": "CAZ Thái Lan",
+        "subtitle": "Phát triển hệ thống nhân sự",
+        "description": "Từ đăng ký thẻ nhân viên, quản lý ca, đánh giá, tuyển dụng, nghỉ việc, đến tính lương và báo cáo, hỗ trợ quản lý nhân sự toàn diện."
+      },
+      "project3": {
+        "category": "2FCFlyOffice",
+        "title": "2FC",
+        "subtitle": "Phát triển Fly Office",
+        "description": "Xử lý yêu cầu mua sắm qua phê duyệt, đặt hàng, nhập kho, hóa đơn, thanh toán, kèm liên kết thuế và ngân hàng."
+      },
+      "project4": {
+        "category": "SamsungKiheung",
+        "title": "Samsung Kiheung",
+        "subtitle": "Phát triển middleware xe tự động",
+        "description": "Bộ điều khiển tự động di chuyển hộp trong sản xuất bán dẫn, hỗ trợ điều khiển thiết bị, giao tiếp không dây và ghi nhật ký."
+      },
+      "project5": {
+        "category": "LGEngergy",
+        "title": "LG Energy Solution",
+        "subtitle": "Phát triển middleware",
+        "description": "Bộ điều khiển cho tự động hóa pin, hỗ trợ đầu đọc RFID, truyền dữ liệu, lọc và ghi nhật ký giao tiếp."
+      },
+      "project6": {
+        "category": "SKHynics",
+        "title": "SK Hynix",
+        "subtitle": "Phát triển middleware SECS",
+        "description": "Bộ điều khiển tự động trong sản xuất, hỗ trợ khởi tạo thiết bị, báo trạng thái và giao tiếp."
+      },
+      "project7": {
+        "category": "SamsungKiheung",
+        "title": "Samsung Kiheung",
+        "subtitle": "Phát triển middleware xe tự động",
+        "description": "Bộ điều khiển tự động di chuyển hộp trong sản xuất bán dẫn, hỗ trợ điều khiển thiết bị, giao tiếp không dây và ghi nhật ký."
+      },
+      "project8": {
+        "category": "LGEngergy",
+        "title": "LG Energy Solution",
+        "subtitle": "Phát triển middleware",
+        "description": "Bộ điều khiển cho tự động hóa pin, hỗ trợ đầu đọc RFID, truyền dữ liệu, lọc và ghi nhật ký giao tiếp."
+      },
+      "project9": {
+        "category": "SKHynics",
+        "title": "SK Hynix",
+        "subtitle": "Phát triển middleware SECS",
+        "description": "Bộ điều khiển tự động trong sản xuất, hỗ trợ khởi tạo thiết bị, báo trạng thái và giao tiếp."
+      }
+    },
+    "technologyStackSection": {
+      "headingTitle": "Ngăn xếp công nghệ"
+    },
+    "flyFrameworkSection": {
+      "headingTitle": "Khung Fly",
+      "headingSubTitle": "Khung 2FC được phát triển qua 13 năm xây dựng hệ thống đa lĩnh vực, cung cấp nhiều giải pháp tùy chỉnh cho doanh nghiệp.",
+      "Speed": {
+        "title": "Phát triển nhanh",
+        "description": "Cung cấp mẫu CRUD, tìm kiếm và chức năng thường dùng để tăng tốc phát triển."
+      },
+      "CostSaving": {
+        "title": "Tiết kiệm chi phí",
+        "description": "Tái sử dụng mô-đun đã kiểm chứng để giảm chi phí phát triển."
+      },
+      "Integration": {
+        "title": "Tích hợp sẵn",
+        "description": "Bao gồm sẵn liên kết với thuế, ngân hàng và ERP."
+      },
+      "Component": {
+        "title": "Cấu trúc dựa trên component",
+        "description": "Tổ chức front-end và back-end theo component, dễ bảo trì."
+      },
+      "Operations": {
+        "title": "Chức năng vận hành",
+        "description": "Bao gồm sẵn quản lý quyền, theo dõi lịch sử, cài đặt menu."
+      }
+    },
+    "leadershipSection": {
+      "headingTitle": "Lãnh đạo",
+      "headingSubTitle": "Đội ngũ chúng tôi coi thành công khách hàng là giá trị cốt lõi, biến mọi khả năng thành hiện thực bằng mục tiêu rõ ràng và năng lực thực thi."
+    },
+    "footer": {
+      "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
+    }
+  }
+}

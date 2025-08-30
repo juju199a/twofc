@@ -92,8 +92,11 @@
                 "description": "生産工程で装置を自動制御するコントローラ。装置初期化、状態通知、通信機能をサポート。"
             }
         }, 
+        "technologyStackSection": {
+            "headingTitle": "技術スタック"
+        }, 
         "flyFrameworkSection": {
-            "headingTitle": "Fly Framework",
+            "headingTitle": "Fly フレームワーク",
             "headingSubTitle": "2FCのフレームワークは、13年間にわたり多様なシステムを開発してきた経験と蓄積された技術を基盤に、企業のニーズに合わせた多様なソリューションを提供しています。",
             "Speed": {
                 "title": "高速開発",
@@ -115,6 +118,13 @@
                 "title": "運用機能を標準装備",
                 "description": "権限管理、履歴追跡、メニュー設定など、運用に必要な機能を内蔵しています。"
             }  
+        }, 
+        "leadershipSection": {
+            "headingTitle": "リーダーシップ",
+            "headingSubTitle": "私たちはお客様の成功を最優先の価値とし、明確な目標と確かな実行力で可能性を現実に変えていきます。"
+        }, 
+        "footer": {
+            "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
         }
     }
 }

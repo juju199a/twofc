@@ -91,6 +91,9 @@
                 "subtitle": "พัฒนา Middleware SECS",
                 "description": "คอนโทรลเลอร์ควบคุมอุปกรณ์ในสายการผลิต รองรับการเริ่มต้นอุปกรณ์ แจ้งสถานะ และการสื่อสาร"
             }
+        }, 
+        "technologyStackSection": {
+            "headingTitle": "สแต็กเทคโนโลยี"
         },
         "flyFrameworkSection": {
             "headingTitle": "Fly Framework",
@@ -115,6 +118,13 @@
                 "title": "ฟังก์ชันการใช้งานครบถ้วน",
                 "description": "มีฟังก์ชันสำคัญสำหรับการปฏิบัติงาน เช่น การจัดการสิทธิ์ การติดตามประวัติ และการตั้งค่าเมนู ติดตั้งมาให้พร้อม"
             }  
+        },
+        "leadershipSection": {
+            "headingTitle": "ภาวะผู้นำ",
+            "headingSubTitle": "ทีมของเราให้ความสำเร็จของลูกค้าเป็นคุณค่าสูงสุด ด้วยเป้าหมายที่ชัดเจนและการลงมือทำที่มั่นใจ เราสร้างทุกความเป็นไปได้ให้เป็นความจริง"
+        }, 
+        "footer": {
+            "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
         }
 
     }

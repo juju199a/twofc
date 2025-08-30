@@ -1,0 +1,56 @@
+/* 컨테이너 */
+.stage{
+  position: relative;
+  max-width: 749px;
+  width: 100%;
+  /* 높이 대신 비율로 관리: 현재 앞 이미지가 705x569라면 */
+  aspect-ratio: 705 / 569;     /* 필요 시 원하는 기준 이미지 비율로 교체 */
+  perspective: 1200px;
+  transform-style: preserve-3d;
+
+  --ax: 0px;   --ay: 68px;    /* 앞쪽(왼쪽 아래) */
+  --bx: 68px;  --by: 0px;     /* 뒤쪽(오른쪽 위)  */
+  --z-front: 60px;
+  --z-back: 0px;
+}
+
+/* 공통 패널 */
+.panel{
+  position:absolute; inset:0;
+  overflow: hidden;                   /* cover로 잘린 부분 깔끔히 마스킹 */
+  border-radius: 8px;
+  border: 1px solid var(--color-neutral-300);
+  background: #fff;                   /* 투명 PNG라도 가장자리 비지 않게 */
+
+  transition:
+    transform 900ms ease-in-out,
+    opacity 900ms ease-in-out,
+    filter 900ms ease-in-out,
+    z-index 0ms linear 450ms;
+  will-change: transform, opacity, filter;
+}
+
+/* Next/Image (fill 사용) */
+.img{
+  object-fit: cover;                  /* 여백 제거(필요시 contain으로 되돌릴 수 있음) */
+  width: 100%;
+  height: 100%;
+}
+
+/* 앞/뒤 상태: transform만으로 이동 */
+.front{
+  z-index: 2;
+  opacity: 1;
+  filter: none;
+  transform: translate3d(var(--ax), var(--ay), var(--z-front));
+}
+.back{
+  z-index: 1;
+  opacity: .98;
+  transform: translate3d(var(--bx), var(--by), var(--z-back));
+  filter: blur(1px) saturate(0.95) brightness(0.98);
+}
+
+@media (prefers-reduced-motion: reduce){
+  .panel{ transition: none !important; transform: none !important; }
+}

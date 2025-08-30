@@ -91,7 +91,10 @@
                 "subtitle": "SECS Communication Middleware",
                 "description": "Controller for automated equipment control in production, with initialization, status notifications, and communication support."
             }
-            }, 
+        }, 
+        "technologyStackSection": {
+            "headingTitle": "Technology Stack"
+        },
         "flyFrameworkSection": {
             "headingTitle": "Fly Framework",
             "headingSubTitle": "The 2FC framework is built on 13 years of accumulated expertise in developing diverse systems, delivering tailored solutions that meet the unique needs of businesses.",
@@ -115,6 +118,14 @@
                 "title": "Essential Operations Features",
                 "description": "Includes core functions for operations such as access control, history tracking, and menu configuration."
             }  
+        }, 
+        "leadershipSection": {
+            "headingTitle": "Leadership",
+            "headingSubTitle": "Our team values our customers' success as the top priority, and with clear goals and strong execution, we turn every possibility into reality."
+        }, 
+        "footer": {
+            "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
         }
+        
     }
 }
