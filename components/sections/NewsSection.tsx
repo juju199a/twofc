@@ -3,7 +3,7 @@ import common from '@/styles/sections/sections.module.css'
 import styles from '@/styles/sections/news.module.css'
 import NewsCard from '../ui/NewsCard'
 import { motion, useAnimation} from 'framer-motion'
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 
 export default function NewsSection() {

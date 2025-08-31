@@ -5,11 +5,12 @@ import LanguageDropdown from "../ui/LanguageDropdown";
 
 export default function NavBar() {
 
-
     return (
         <div className={styles.wrap}>
             <div>
-                <Image src="/images/2fc_logo_full.png" alt="2FC logo" width={140} height={52}></Image>
+                <Link href="/">
+                    <Image src="/images/2fc_logo_full.png" alt="2FC logo" width={140} height={52}></Image>
+                </Link>
             </div>
             <nav>
                 <ul className={styles['menu']}>
@@ -26,7 +27,9 @@ export default function NavBar() {
             </nav>
             <div className={styles['button-box']}>
                 <LanguageDropdown />
-                <button className={styles['button']}>Contact</button>
+                <Link href="/contact">
+                    <button className={styles['button']}>Contact</button>
+                </Link>
             </div>
         </div>
     )
