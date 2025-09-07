@@ -24,8 +24,8 @@ export default function LeadershipSection() {
                         </div>
                     </div>
                     <div className={styles['staffs']}>
-                        <LeadershipCard category='PARK' name='Jun-ho Park' title='Software Team Leader' email='abc@2fc.co.kr'/>
-                        <LeadershipCard category='LEE' name='Sun-hong Lee' title='CEO' email='abc@2fc.co.kr'/>
+                        <LeadershipCard category='PARK' name='June-ho Park' title='Software Team Leader' email='abc@2fc.co.kr'/>
+                        <LeadershipCard category='LEE' name='Soon-hong Lee' title='CEO' email='abc@2fc.co.kr'/>
                         <LeadershipCard category='KIM' name='Ki-dong Kim' title='Hardware Team Leader' email='abc@2fc.co.kr'/>
                     </div>
                 </div>
