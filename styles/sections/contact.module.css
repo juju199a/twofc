@@ -6,13 +6,15 @@
 
 .section {
     width: 100%;
-    /* border: 2px solid red;       확인용 */
-    margin: 80px 0;
+    /* border: 2px solid red;        확인용 */
+    max-width: 1200px;
+    margin: 80px auto;
 
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    /* gap: 48px; */
     gap: 64px;
 }
 

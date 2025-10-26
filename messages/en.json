@@ -126,6 +126,58 @@
         "footer": {
             "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
         }
-        
+    },
+    "AboutPage": {
+        "aboutUsSection": {
+            "greeting1": {
+                "0": "We sincerely thank you for visiting our website.", 
+                "1": "Technologies like AI and Web3 are evolving rapidly, and so are the IT environments of businesses.", 
+                "2": "2FC strives to think together with our clients amid these changes and find practical, realistic solutions."
+            },
+            "greeting2": {
+                "0": "Since our first CTI system project in Indonesia in 2009, we have successfully completed numerous projects with domestic and global partners.", 
+                "1": "Based on our web and mobile development expertise, we provide not only specialized solutions like equipment communication but also customizable modules and easy-to-apply service components.", 
+                "2": "With our accumulated experience, proprietary technologies, cost-efficient development, and steady maintenance, we help ensure your IT investment leads to real success.", 
+                "3": "We will continue to grow with our clients and remain a trusted partner."
+            }
+        },
+        "introductionSection": {
+            "headingTitle": "Company Introduction",
+            "introdction1": {
+                "title": "Company Name", 
+                "description": "2FC Co., Ltd."
+            },
+            "introdction2": {
+                "title": "CEO", 
+                "description": "Lee Soon Hong"
+            },
+            "introdction3": {
+                "title": "Founded", 
+                "description": "November 5, 2009\nIncorporated on February 6, 2014"
+            },
+            "introdction4": {
+                "title": "Business Type", 
+                "description": "Application software development and supply"
+            },
+            "introdction5": {
+                "title": "Main Business Areas", 
+                "description": "Customized IT system development\nEquipment communication development\nSolution sales and rental\nMobile web development\nMaintenance services, etc."
+            },
+            "introdction6": {
+                "title": "Address", 
+                "description": "33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul\n13F, Suite 11"
+            }
+        },
+        "historySection": {
+            "headingTitle": "Company History",
+            "history2024": "[Service] Launch of FlyOffice Service\n[Custom Solution] Development of Purchasing Management System for Seyeon Technology\n[Custom Solution] Reconstruction of Medical Cooperation System for Dankook University\n[Custom Solution] Development of Fitness Settlement Management System for Sheraton Hotel",
+            "history2023": "[Custom Solution] Security Vulnerability Improvement for Shilla Hotel Labor Management System\n[Custom Solution] Development of Management System for 5,000 Central Distribution Complex Stores\n[Maintenance] Ongoing Support for CAZ Thailand HR and Payroll System\n[Custom Solution] Development of Magnet Service Card Delivery App",
+            "history2022": "[Equipment Communication] Development of Stealth Network Security System\n[Custom Solution] Tax Reporting Management for USANA\n[Equipment Communication] RF Communication Development for Samsung Giheung Cart\n[Custom Solution] Reservation Scheduling System for USANA Skincare",
+            "history2021": "[Equipment Communication] Communication Development for SK Hynix China Runbox System\n[Equipment Communication] Middleware Development for LG Chem Raspberry Pi\n[Custom Solution] Development of Franchise Management Site for CampingGorae\n[Custom Solution] Development of MES System for FRACO",
+            "history2020": "[Equipment Communication] RF Communication App Development for JT Communication Kindergarten\n[Custom Solution] Dormitory Management System for Daejin University\n[Equipment Communication] Electronic Key Production Test for IRevo\n[Equipment Communication] Main Server SECS Communication for SK Hynix\n[Custom Solution] B2B Shopping Mall for Cheil Industries\n[Custom Solution] HR and Labor Management System for CAZ (Thailand)\n[Custom Solution] Hana Daetoo Electronic Contract System"
+        }
+
+
     }
+
 }

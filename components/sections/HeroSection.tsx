@@ -1,9 +1,16 @@
 import styles from '@/styles/sections/hero.module.css';
 import Image from "next/image";
-import {useTranslations} from 'next-intl';
+import {useLocale, useTranslations} from 'next-intl';
 import HeroImages from '../ui/HeroImages';
+import Link from 'next/link';
+
+function lhref(path: string, locale: string) {
+  return `/${locale}${path === '/' ? '' : path}`;
+}
 
 export default function HeroSection() {
+
+  const locale = useLocale();
 
   const t = useTranslations('LandingPage.heroSection');
   const messages = {
@@ -28,7 +35,7 @@ export default function HeroSection() {
                         <button className={styles['button']}>Our Projects</button>
                       </div>
                       <div>
-                        <button className={styles['button-disable']}>About Us</button>
+                        <Link href={lhref('/about', locale)}><button className={styles['button-disable']}>About Us</button></Link>
                       </div>                      
                     </div>
                 </div>

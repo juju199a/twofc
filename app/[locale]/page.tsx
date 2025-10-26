@@ -11,13 +11,13 @@ export default function Page() {
   
   return (
     <>
-      <div className="reveal"><HeroSection /></div>
-      <div className="reveal"><ConceptSection /></div>
-      <div className="reveal"><FeaturedProjectSection /></div>
-      <div className="reveal"><TechnologyStackSection /></div>
-      <div className="reveal"><FlyFrameworkSection /></div>
-      <div className="reveal"><LeadershipSection /></div>
-      <div className="reveal"><NewsSection /></div>
+      <div><HeroSection /></div>
+      <div><ConceptSection /></div>
+      <div><FeaturedProjectSection /></div>
+      <div><TechnologyStackSection /></div>
+      <div><FlyFrameworkSection /></div>
+      <div><LeadershipSection /></div>
+      <div><NewsSection /></div>
       
       
     </>

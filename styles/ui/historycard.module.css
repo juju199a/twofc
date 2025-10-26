@@ -1,0 +1,84 @@
+.card {
+    max-width: 1024px;
+    width: 100%;
+    border: 0 solid var(--color-neutral-200);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+
+}
+
+.card .card-header {
+    max-width: 120px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.card-header .year{
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--color-neutral-600);
+}
+
+.card .container {
+    max-width: 840px;
+    height: 100%;
+
+    padding: 0 0 0 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container .description {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 36px;
+    
+    color: var(--color-neutral-600);
+}
+
+.multilang-text {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}
+
+.card .circle-line {
+    width: 38px;
+    position: relative;
+    height: 100%; /* 전체 높이 */
+}
+
+.card .circle-line::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 32px;
+  height: 32px;
+  background-color: var(--primary-blue); /* 진한 파란색 */
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.card .circle-line::after {
+  content: "";
+  position: absolute;
+  top: 30px; /* 원 바로 아래부터 시작 */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 6px;
+  height: 90%;
+  background-color: var(--color-neutral-300); /* 연한 파란색 */
+}

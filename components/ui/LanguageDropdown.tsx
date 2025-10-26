@@ -36,7 +36,7 @@ function LanguageSelect({languages, value, onChange}: LanguageSelectProps) {
             if (!rootRef.current.contains(e.target as Node)) {
                 setOpen(false);
             }
-                    console.log('###');
+            // console.log('###');
         };
         document.addEventListener("mousedown", onDocMouseDown);
         return () => document.removeEventListener("mousedown", onDocMouseDown)

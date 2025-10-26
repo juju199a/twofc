@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "Pacifico";
+  src: url("/fonts/Pacifico-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid blue;       확인용 */
+}
+
+.section {
+    width: 100%;
+    /* border: 2px solid red;        확인용 */
+    max-width: 1200px;
+    margin: 80px auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.title {
+    max-width: 1200px;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.title .big{
+    max-width: 845px;
+    width: 100%;
+
+    margin: 0;
+    color: var(--color-neutral-900);
+    font-size: 80px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.title .image{
+    max-width: 305px;
+    max-height: 219px;
+
+    border-radius: 8px;
+
+    position: relative;
+
+    aspect-ratio: 16 / 9; /* 또는 원하는 비율 */
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    max-height: 504px;
+    height: 100%;
+
+    /* border: 1px solid purple;        확인용 */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 36px;
+
+}
+
+.container .greeting1{
+
+    color: var(--color-neutral-600);
+
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.container .greeting2{
+
+    color: var(--color-neutral-600);
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.container .greeting3{
+
+    width: 100%;
+
+    color: var(--color-neutral-900);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.greeting3 .title{
+    max-width: 140px;
+    width: 100%;
+
+    color: var(--color-neutral-900);
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.greeting3 .signature{
+    max-width: 200px;
+    width: 100%;
+
+    color: var(--color-black);
+
+    font-family: "Pacifico";
+    
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 48px;
+}
+

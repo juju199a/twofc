@@ -126,5 +126,58 @@
     "footer": {
       "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
     }
+  },
+  "AboutPage": {
+      "aboutUsSection": {
+          "greeting1": {
+              "0": "Chúng tôi chân thành cảm ơn quý khách đã ghé thăm trang web của chúng tôi.", 
+              "1": "Công nghệ như AI và Web3 đang thay đổi rất nhanh, và môi trường CNTT của doanh nghiệp cũng đang thay đổi theo.", 
+              "2": "2FC luôn đồng hành cùng khách hàng trong sự thay đổi này để tìm ra giải pháp thực tế và dễ áp dụng."
+          },
+          "greeting2": {
+              "0": "Kể từ khi bắt đầu phát triển hệ thống CTI tại Indonesia năm 2009, chúng tôi đã hợp tác và hoàn thành nhiều dự án thành công với các doanh nghiệp trong và ngoài nước.", 
+              "1": "Với năng lực phát triển web và di động, chúng tôi không chỉ cung cấp các giải pháp chuyên biệt như giao tiếp thiết bị mà còn có các mô-đun dịch vụ dễ sử dụng và tùy chỉnh.", 
+              "2": "Với kinh nghiệm và công nghệ tích lũy, chi phí được tối ưu nhờ phát triển nội bộ, cùng dịch vụ bảo trì liên tục, chúng tôi giúp khoản đầu tư CNTT của bạn mang lại thành công thực sự.", 
+              "3": "Chúng tôi sẽ tiếp tục phát triển cùng khách hàng và trở thành đối tác đáng tin cậy."
+          }
+      },
+      "introductionSection": {
+          "headingTitle": "Giới thiệu công ty",
+          "introdction1": {
+              "title": "Tên công ty", 
+              "description": "Công ty TNHH 2FC"
+          },
+          "introdction2": {
+              "title": "CEO", 
+              "description": "Lee Soon Hong"
+          },
+          "introdction3": {
+              "title": "Ngày thành lập", 
+              "description": "Ngày 5 tháng 11 năm 2009\nChuyển đổi thành công ty cổ phần: Ngày 6 tháng 2 năm 2014"
+          },
+          "introdction4": {
+              "title": "Loại hình kinh doanh", 
+              "description": "Phát triển và cung cấp phần mềm ứng dụng"
+          },
+          "introdction5": {
+              "title": "Lĩnh vực kinh doanh chính", 
+              "description": "Phát triển hệ thống CNTT theo yêu cầu\nPhát triển giao tiếp thiết bị\nBán và cho thuê giải pháp\nPhát triển web di động\nDịch vụ bảo trì, v.v."
+          },
+          "introdction6": {
+              "title": "Địa chỉ", 
+              "description": "Số 33, Đường Gukjegeumyung-ro 6-gil, Quận Yeongdeungpo, Seoul\nTầng 13, Phòng 11"
+          }
+      }, 
+      "historySection": {
+          "headingTitle": "Lịch sử công ty",
+          "history2024": "[Dịch vụ] Ra mắt dịch vụ FlyOffice\n[Giải pháp tùy chỉnh] Phát triển hệ thống quản lý mua hàng cho Seyeon Technology\n[Giải pháp tùy chỉnh] Tái xây dựng hệ thống hợp tác y tế cho Đại học Dankook\n[Giải pháp tùy chỉnh] Phát triển hệ thống quản lý thanh toán phòng gym cho khách sạn Sheraton",
+          "history2023": "[Giải pháp tùy chỉnh] Cải thiện lỗ hổng bảo mật trong hệ thống quản lý lao động khách sạn Shilla\n[Giải pháp tùy chỉnh] Phát triển hệ thống quản lý cho hơn 5.000 trung tâm phân phối trung tâm\n[Bảo trì] Bảo trì hệ thống nhân sự và tiền lương CAZ tại Thái Lan\n[Giải pháp tùy chỉnh] Phát triển ứng dụng giao thẻ dịch vụ Magnet",
+          "history2022": "[Giao tiếp thiết bị] Phát triển hệ thống bảo mật mạng Stealth\n[Giải pháp tùy chỉnh] Hệ thống quản lý khai báo thuế cho USANA\n[Giao tiếp thiết bị] Phát triển truyền thông RF cho xe đẩy tại nhà máy Samsung Giheung\n[Giải pháp tùy chỉnh] Phát triển hệ thống đặt lịch chăm sóc da USANA",
+          "history2021": "[Giao tiếp thiết bị] Phát triển truyền thông Runbox cho SK Hynix Trung Quốc\n[Giao tiếp thiết bị] Phát triển middleware Raspberry Pi cho LG Chem\n[Giải pháp tùy chỉnh] Phát triển trang quản lý chuỗi cửa hàng CampingGorae\n[Giải pháp tùy chỉnh] Phát triển hệ thống MES cho FRACO",
+          "history2020": "[Giao tiếp thiết bị] Phát triển ứng dụng RF Communication cho trường mẫu giáo JT Communication\n[Giải pháp tùy chỉnh] Phát triển hệ thống quản lý ký túc xá Đại học Daejin\n[Giao tiếp thiết bị] Kiểm tra quy trình sản xuất khóa điện tử IRevo\n[Giao tiếp thiết bị] Phát triển SECS Communication cho máy chủ chính SK Hynix\n[Giải pháp tùy chỉnh] Phát triển trang mua sắm B2B cho Cheil Industries\n[Giải pháp tùy chỉnh] Phát triển hệ thống quản lý nhân sự và lao động CAZ (Thái Lan)\n[Giải pháp tùy chỉnh] Phát triển hệ thống hợp đồng điện tử Hana Daetoo"
+      }
+
+
   }
+
 }

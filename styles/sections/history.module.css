@@ -1,0 +1,72 @@
+.wrapper {
+    max-width: 1920px;
+    min-width: 972px;
+    width: 100%;
+
+    /* border: 2px solid purple;    확인용 */
+    
+    display: flex;
+    justify-content: center;
+
+}
+
+.section {
+    max-width: 1440px;
+    min-width: 1280px;
+    width: 100%;
+
+    /* border: 2px solid blue;    확인용 */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    margin: 120px 0;
+
+    /* border: 2px solid red;    확인용 */
+
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading .big{
+    max-width: 1119px;
+    
+    margin: 0;
+    color: var(--color-neutral-900);
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.histories {
+    max-width: 1200px;
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid blue;   확인용 */ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap:62px;
+    
+}
+
+
+

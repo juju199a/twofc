@@ -30,7 +30,7 @@ export default async function RootLayout({
     return (
         <html lang={locale}>
             <body>
-                <NextIntlClientProvider>
+                <NextIntlClientProvider locale={locale}>
                 <header>
                     <NavBar />
                 </header>
