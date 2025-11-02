@@ -175,9 +175,15 @@
             "history2022": "[Equipment Communication] Development of Stealth Network Security System\n[Custom Solution] Tax Reporting Management for USANA\n[Equipment Communication] RF Communication Development for Samsung Giheung Cart\n[Custom Solution] Reservation Scheduling System for USANA Skincare",
             "history2021": "[Equipment Communication] Communication Development for SK Hynix China Runbox System\n[Equipment Communication] Middleware Development for LG Chem Raspberry Pi\n[Custom Solution] Development of Franchise Management Site for CampingGorae\n[Custom Solution] Development of MES System for FRACO",
             "history2020": "[Equipment Communication] RF Communication App Development for JT Communication Kindergarten\n[Custom Solution] Dormitory Management System for Daejin University\n[Equipment Communication] Electronic Key Production Test for IRevo\n[Equipment Communication] Main Server SECS Communication for SK Hynix\n[Custom Solution] B2B Shopping Mall for Cheil Industries\n[Custom Solution] HR and Labor Management System for CAZ (Thailand)\n[Custom Solution] Hana Daetoo Electronic Contract System"
+        },
+        "logoSection": {
+            "headingTitle": "Logo Description",
+            "logoMaster1": "'Free, Fly' stands for both technical evolution and the freedom to soar high.",
+            "logoMaster2": "With a trusted blue tone, it conveys innovation and vibrant energy together.",
+            "logoDetail1": "The '2FC' mark blends the number ‘2’ with the letters ‘FC,’ suggesting ‘Second to none’ or symbolizing wings through IT solutions.",
+            "logoDetail2": "Like the name ‘Free Fly,’ its uplifting form evokes a company that helps businesses take off through technology.",
+            "logoDetail3": "The contrast of each letter’s lines—straight and curved—visually shows harmony between stability and flexibility."
         }
-
-
     }
 
 }

@@ -175,8 +175,15 @@
           "history2022": "[Giao tiếp thiết bị] Phát triển hệ thống bảo mật mạng Stealth\n[Giải pháp tùy chỉnh] Hệ thống quản lý khai báo thuế cho USANA\n[Giao tiếp thiết bị] Phát triển truyền thông RF cho xe đẩy tại nhà máy Samsung Giheung\n[Giải pháp tùy chỉnh] Phát triển hệ thống đặt lịch chăm sóc da USANA",
           "history2021": "[Giao tiếp thiết bị] Phát triển truyền thông Runbox cho SK Hynix Trung Quốc\n[Giao tiếp thiết bị] Phát triển middleware Raspberry Pi cho LG Chem\n[Giải pháp tùy chỉnh] Phát triển trang quản lý chuỗi cửa hàng CampingGorae\n[Giải pháp tùy chỉnh] Phát triển hệ thống MES cho FRACO",
           "history2020": "[Giao tiếp thiết bị] Phát triển ứng dụng RF Communication cho trường mẫu giáo JT Communication\n[Giải pháp tùy chỉnh] Phát triển hệ thống quản lý ký túc xá Đại học Daejin\n[Giao tiếp thiết bị] Kiểm tra quy trình sản xuất khóa điện tử IRevo\n[Giao tiếp thiết bị] Phát triển SECS Communication cho máy chủ chính SK Hynix\n[Giải pháp tùy chỉnh] Phát triển trang mua sắm B2B cho Cheil Industries\n[Giải pháp tùy chỉnh] Phát triển hệ thống quản lý nhân sự và lao động CAZ (Thái Lan)\n[Giải pháp tùy chỉnh] Phát triển hệ thống hợp đồng điện tử Hana Daetoo"
-      }
-
+      },
+      "logoSection": {
+        "headingTitle": "Giới thiệu Logo",
+        "logoMaster1": "'Free, Fly' thể hiện sự tiến hóa công nghệ và khát vọng bay cao tự do.",
+        "logoMaster2": "Tông màu xanh tin cậy thể hiện đồng thời sự đổi mới và năng lượng.",
+        "logoDetail1": "Chữ '2FC' bên trái kết hợp số ‘2’ và chữ cái ‘FC’, ngụ ý ‘Second to none’ hoặc biểu trưng cho đôi cánh giúp doanh nghiệp cất cánh bằng giải pháp CNTT.",
+        "logoDetail2": "Giống như tên gọi ‘Free Fly’, thiết kế mang cảm giác tự do bay lượn, thể hiện hình ảnh doanh nghiệp mang đôi cánh công nghệ cho khách hàng.",
+        "logoDetail3": "Sự tương phản giữa các yếu tố của chữ (đường thẳng và đường cong) thể hiện sự hài hòa giữa ổn định và linh hoạt."
+    }
 
   }
 
