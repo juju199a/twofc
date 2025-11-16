@@ -39,10 +39,14 @@ export default function SystemArchitectureSection({messageRoot, imageSrc}: Syste
 
 
                 </div>
-                <div className={`${styles['container']}`}>
-                    <div className={styles['image']}>
-                        <Image src={imageSrc} alt="" fill style={{ objectFit: 'cover' }}/>
-                    </div>
+                <div className={styles['image']}>
+                    <Image
+                        src={imageSrc}
+                        alt=""
+                        width={568}
+                        height={467}
+                        style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                    />
                 </div>
             </section>
         </div>

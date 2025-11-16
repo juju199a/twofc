@@ -18,11 +18,15 @@ export default function KeyFeatureSection({messageRoot, imageSrc}: KeyFeaturePro
     return (
         <div className={`${styles['wrapper']}`}>
             <section className={`${styles['section']}`}>
-                <div className={`${styles['container']}`}>
-                    <div className={styles['image']}>
-                        <Image src={imageSrc} alt="" fill style={{ objectFit: 'cover' }}/>
+                <div className={styles['image']}>
+                        <Image
+                            src={imageSrc}
+                            alt=""
+                            width={568}
+                            height={467}
+                            style={{ width: '100%', height: 'auto', objectFit: 'contain' }}
+                        />
                     </div>
-                </div>
                 <div className={styles['heading']}>
                     <div className={styles['title']}>
                         {messages.title}
