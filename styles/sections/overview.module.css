@@ -1,0 +1,71 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid blue;       확인용 */
+}
+
+.section {
+    width: 100%;
+    /* border: 2px solid red;        확인용 */
+    max-width: 1200px;
+    margin: 100px auto;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 120px;
+}
+
+
+.container {
+    max-width: 540px;
+    width: 100%;
+    max-height: 400px;
+    height: 100%;
+
+    /* border: 1px solid purple;        확인용 */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 28px;
+
+}
+
+.container .title {
+    max-width: 540px;
+    width: 100%;
+
+    color: var(--color-neutral-900);
+    font-size: 64px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.container .description {
+    max-width: 540px;
+    width: 100%;
+
+    color: var(--color-neutral-600);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.media {
+    max-width: 540px;
+    width: 100%;
+
+    color: var(--color-neutral-600);
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.multilang-text {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+  white-space: normal;
+}

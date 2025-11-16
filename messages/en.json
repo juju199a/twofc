@@ -127,6 +127,13 @@
             "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
         }
     },
+    "ContactPage": {
+        "contactSection": {
+            "headingTitle": "Contact",
+            "headingSubTitle": "Working with 2FC’s experts completes your IT team.",
+            "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
+        }
+    },
     "AboutPage": {
         "aboutUsSection": {
             "greeting1": {
@@ -183,6 +190,200 @@
             "logoDetail1": "The '2FC' mark blends the number ‘2’ with the letters ‘FC,’ suggesting ‘Second to none’ or symbolizing wings through IT solutions.",
             "logoDetail2": "Like the name ‘Free Fly,’ its uplifting form evokes a company that helps businesses take off through technology.",
             "logoDetail3": "The contrast of each letter’s lines—straight and curved—visually shows harmony between stability and flexibility."
+        }
+    },
+    "ServicePage": {
+        "overviewSection": {
+        "headingTitle": "IT Service",
+        "description": "2FC develops and operates IT resources and systems, efficiently integrates information and knowledge, and focuses on discovering the group's future new growth engines and increasing business value through new IT technologies."
+        },
+        "projectIntroSection_1": {
+        "title": "Fly Office",
+        "summary": "Integrated system for e-procurement, order management, and e-approval",
+        "description": "Requests for necessary materials or goods are processed separately by each module manager for e-approval, purchase order, receiving, tax invoice, and payment."
+        },
+        "systemArchitectureSection_1": {
+        "title": "System Architecture",
+        "description": [
+            "Depending on the purchase request situation—such as tax invoice (received), tax invoice (not received), expense (received), and expense (not received)—each module proceeds accordingly.",
+            "The system connects with the National Tax Service and bank accounts for processing."
+        ]
+        },
+        "keyFeatureSection_1": {
+        "title": "Key Features",
+        "description": [
+            "We provide master data management services for supplier management, material management, and the entire purchase process.",
+            "We support systematic purchase request management for efficient purchasing procedures.",
+            "We operate integrated purchasing and receiving tasks such as purchase order management, receiving management, and receiving execution.",
+            "Accurate and prompt tax management is achieved through tax invoice processing.",
+            "We support overall accounting tasks such as payment management, payment requests, accounting confirmation, and general ledger reports."
+        ]
+        },
+        "projectIntroSection_2": {
+        "title": "Hotel Membership Management",
+        "summary": "Hotel membership management system",
+        "description": "This is a customer management service for managing VIP hotel members."
+        },
+        "systemArchitectureSection_2": {
+        "title": "System Architecture",
+        "description": [
+            "Customized services optimized for the customer environment.",
+            "Effectively manages relationships with hotel customers and improves business strategies."
+        ]
+        },
+        "keyFeatureSection_2": {
+        "title": "Key Features",
+        "description": [
+            "Membership products such as points, discount coupons, and free gifts can be freely configured according to customer characteristics.",
+            "Resources reserved can be efficiently managed based on an intuitive UI.",
+            "Facility operations are systemized to maximize work efficiency within the organization.",
+            "Customers can receive discount benefits by using points when using services.",
+            "Relationships with customers are systematically managed and maintained to increase loyalty.",
+            "Customer-preferred products, purchase cycles, and consumption patterns can be analyzed to establish personalized marketing strategies."
+        ]
+        },
+        "projectIntroSection_3": {
+        "title": "Team Work Management",
+        "summary": "Team work management",
+        "description": "High-quality service is provided through customer contract management, customer visit tasks, work team assignments, and work schedules. \n\nCustomer requests such as grout work, cleaning, and new-home syndrome include order memos, work schedules, and work team assignments. Manual or Excel-based work makes management difficult and limits the ability to provide high-quality service based on customer order information."
+        },
+        "systemArchitectureSection_3": {
+        "title": "System Architecture",
+        "description": [
+            "When a customer order is received, the system automatically generates a work request suitable for that service.",
+            "Various work types—such as grout installation, move-in cleaning, and new-home syndrome removal—are classified and managed systematically.",
+            "Progress and results are notified to the customer in real time via SMS."
+        ]
+        },
+        "keyFeatureSection_3": {
+        "title": "Key Features",
+        "description": [
+            "When an order is received, it is immediately assigned to a work team for quick response.",
+            "Work teams can check schedules and work information at a glance through a dedicated work calendar.",
+            "Facility operations are systemized to maximize organizational work efficiency.",
+            "After work is completed, on-site photos are registered and completion notification messages are automatically sent to the customer."
+        ]
+        }
+    },
+    "SolutionsPage": {
+        "overviewSection": {
+        "headingTitle": "Solutions",
+        "description": "2FC’s framework is a collection of accumulated technologies built over 13 years of developing various systems, and is provided as a range of customized solutions required by enterprises."
+        },
+        "projectIntroSection_1": {
+        "title": "Fly Office Franchise Management System",
+        "summary": "Franchise management system",
+        "description": "A single integrated system that manages more than 70 franchise branches for ordering, product management, purchasing, sales, and POS sales.\n\nProducts ordered by branches are separated and automatically requested to suppliers.\nBy linking bank accounts, the system manages credit limits based on branch order amounts."
+        },
+        "systemArchitectureSection_1": {
+        "title": "System Architecture",
+        "description": [
+            "The franchise headquarters manages camping site information and products through WMS (Warehouse Management System), the website, and reservation systems.",
+            "The warehouse and logistics system supplies products from headquarters to franchise stores or camping sites.",
+            "Franchise stores, camping sites, and consumers order products or use services through the headquarters' system, where actual product usage and experiences occur."
+        ]
+        },
+        "keyFeatureSection_1": {
+        "title": "Key Features",
+        "description": [
+            "Standard information such as customers, products, and quotation forms, along with orders, sales, and collection status are centrally managed to systematize sales activities.",
+            "Delivery execution and order-specific delivery status can be checked in real time, and tax invoices can be issued and managed.",
+            "Warehouse operations and logistics flows are efficiently managed through features such as collection details, inventory in/out, and inventory adjustments."
+        ]
+        },
+        "projectIntroSection_2": {
+        "title": "Electronic Procurement Management System",
+        "summary": "Electronic procurement management system",
+        "description": "Purchase requests for required materials or goods are processed separately by module managers for e-approval, purchase order, receiving, tax invoice, and payment."
+        },
+        "systemArchitectureSection_2": {
+        "title": "System Architecture",
+        "description": [
+            "When a purchase request is registered, approval is obtained through e-approval, followed by ordering and receiving.",
+            "Once receiving is completed, the invoice is linked and the process moves to the payment stage, where payment status is confirmed through bank integration.",
+            "After all payments are completed, the accounting system performs the final accounting confirmation."
+        ]
+        },
+        "keyFeatureSection_2": {
+        "title": "Key Features",
+        "description": [
+            "The dashboard displays various information at a glance such as notices, documents, purchase request status, documents awaiting approval, and the status of my documents.",
+            "Users can create purchase request forms, input item information such as items, quantities, and unit prices, and connect the process through e-approval, ordering, receiving, and tax invoice issuance.",
+            "Each step has dedicated buttons, enabling easy execution of e-approval, ordering, receiving, invoice processing, and payment through a user-centered UI.",
+            "In the approval document screen, approval status, approver information, document details, and item lists are clearly displayed to transparently manage purchase history.",
+            "The entire system integrates the full process from purchasing to receiving, approval, and accounting confirmation, improving operational efficiency and accuracy."
+        ]
+        },
+        "projectIntroSection_3": {
+        "title": "Overseas Construction Labor Management System",
+        "summary": "Labor management system",
+        "description": "A system used by a plant construction company in Thailand to manage HR, attendance, and payroll for over 500 employees and more than 5,000 labor workers. It also includes performance evaluation and procurement bidding systems."
+        },
+        "systemArchitectureSection_3": {
+        "title": "System Architecture",
+        "description": [
+            "The HR system manages employee personnel information, including personnel card registration, work history, evaluations, and transfers.",
+            "The attendance system processes various attendance data such as fingerprint recognition, daily work, overtime, night work, and rainy-day work.",
+            "The payroll and settlement system supports overall payroll tasks such as monthly payroll item settings, payroll calculations, and tax report generation."
+        ]
+        },
+        "keyFeatureSection_3": {
+        "title": "Key Features",
+        "description": [
+            "Common codes and user roles can be collectively set and managed, enhancing overall system consistency and security.",
+            "The system can stably process data for more than 3,000 employees, enabling efficient HR management for large organizations.",
+            "Flexible changes and settlements can be made for various payroll items such as allowances, base salary, and taxes, and individual payroll reports can be easily generated.",
+            "Attendance records reflecting various working conditions such as overtime, night shifts, and rainy-day work can be managed, enabling flexible work management suited to real site conditions.",
+            "Payroll statements and tax reports based on individual employee payroll details and tax information are automatically generated, simplifying accounting and tax processing."
+        ]
+        }
+    },
+    "DevicesPage": {
+        "overviewSection": {
+        "headingTitle": "Device \nCommunication",
+        "description": "As one of 2FC's specialized development areas, we provide extensive experience and proven results in RF communication, Raspberry Pi and various middleware, and SECS communication, significantly enhancing your operational efficiency."
+        },
+        "deviceProjectSection_1": {
+        "title": "LG Energy Solution Middleware",
+        "description": "The RFID system controller is a device designed for automating the battery production process. It automatically recognizes packets between the PLC and RFID reader and delivers them accurately to the corresponding reader. It supports both 13.56MHz and 900MHz readers, and for 900MHz tags, it filters and sends the highest recognition value for each data item to the PLC. All transmitted and received data is recorded in log files, enabling quick and precise analysis in the event of a failure."
+        },
+        "deviceProjectSection_2": {
+        "title": "SK hynix Middleware SECS Communication",
+        "description": "To automate the TDBI process, we developed a rack-stocker controller that controls the AGV-based process flow. For stable message transmission and reception with the server, we built a custom communication library running on an embedded Linux environment. Using the HSMS-based SECS-II protocol, we implemented equipment initialization and event report functions. By faithfully applying standardized data transmission and key protocol elements defined in SECS communication standards, the system enables smooth integration with semiconductor process equipment."
+        },
+        "deviceProjectSection_3": {
+        "title": "ZMODEM Encrypted Communication",
+        "description": "To automate the TDBI process, we developed a rack-stocker controller that controls the AGV-based process flow. For stable message transmission and reception with the server, we built a custom communication library running on an embedded Linux environment. Using the HSMS-based SECS-II protocol, we implemented equipment initialization and event report functions. By fully applying standardized data transmission and key protocol elements defined in SECS communication standards, the system is designed to ensure seamless integration with semiconductor process equipment."
+        },
+        "deviceProjectSection_4": {
+        "title": "SK System IC Wuxi Fab Runbox Shelf \nMiddleware Development",
+        "description": "Designed for the automated transport of runboxes containing wafers in semiconductor processes, the shelf controller communicates with the upper server via an RS-485 gateway and controls the 125kHz RFID reader and LCD module installed on the shelf. Runbox in/out information and system status are recorded in real time, and all transmitted and received data is stored in log files, enabling fast analysis in case of failures."
+        },
+        "deviceProjectSection_5": {
+        "title": "Samsung Giheung LOT Location Info Auto Cart \nMiddleware Development",
+        "description": "The cart controller, designed for automatic transport of LOT boxes containing wafers in semiconductor processes, communicates wirelessly with the server over Wi-Fi due to its mobile equipment characteristics. The controller manages the 13.56MHz RFID reader, beacon lights, sensors, LCD module, and more. It detects process conditions in real time and provides information to the user. All transmitted and received data is recorded in log files to support fast failure analysis and quick response."
+        },
+        "deviceProjectSection_6": {
+        "title": "JT Communication RF Reader App Development",
+        "description": "To control RFID readers installed at the entrances of daycare centers and kindergartens, we developed an Android configuration app as part of a system that automatically delivers check-in and check-out information to guardians. The app communicates with the RFID reader via Bluetooth and allows all reader settings to be configured directly. It also includes firmware update and tag reading test functions, enabling easy maintenance and function verification on site."
+        },
+        "deviceProjectEtc": {
+        "title": "Other Implementations",
+        "descriptions_left": [
+            "Icheon TDBI Buffer Manager Integration",
+            "Gwangju Asia Culture Center Tension Monitoring Development",
+            "Seyeon Reel Finder Interface",
+            "SK hynix Communication",
+            "iRevo Product Test Management",
+            "HanSeung Card Company Communication Program"
+        ],
+        "descriptions_right": [
+            "Raspberry Terra Development",
+            "Hynix Reticle",
+            "iRevo Electronic Key Production Process Test",
+            "Hynix Main Server SECS Communication",
+            "Haman Agricultural Products Image Processing"
+        ]
         }
     }
 

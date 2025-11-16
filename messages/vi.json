@@ -124,7 +124,14 @@
       "headingSubTitle": "Đội ngũ chúng tôi coi thành công khách hàng là giá trị cốt lõi, biến mọi khả năng thành hiện thực bằng mục tiêu rõ ràng và năng lực thực thi."
     },
     "footer": {
-      "address": "2FC Co., Ltd. #11, 13th Floor, 33, Gukjegeumyung-ro 6-gil, Yeongdeungpo-gu, Seoul, Republic of Korea"
+      "address": "Tầng 13, Phòng 11, Số 33 Đường Gukje Geumyung-ro 6-gil, Quận Yeongdeungpo, Seoul"
+    }
+  },
+  "ContactPage": {
+    "contactSection": {
+      "headingTitle": "Contact",
+      "headingSubTitle": "Khi đồng hành cùng các chuyên gia của 2FC, đội ngũ IT của quý công ty sẽ được hoàn thiện.",
+      "address": "Tầng 13, Phòng 11, Số 33 Đường Gukje Geumyung-ro 6-gil, Quận Yeongdeungpo, Seoul"
     }
   },
   "AboutPage": {
@@ -184,7 +191,201 @@
         "logoDetail2": "Giống như tên gọi ‘Free Fly’, thiết kế mang cảm giác tự do bay lượn, thể hiện hình ảnh doanh nghiệp mang đôi cánh công nghệ cho khách hàng.",
         "logoDetail3": "Sự tương phản giữa các yếu tố của chữ (đường thẳng và đường cong) thể hiện sự hài hòa giữa ổn định và linh hoạt."
     }
-
+  },
+  "ServicePage": {
+    "overviewSection": {
+      "headingTitle": "Dịch vụ IT",
+      "description": "2FC phát triển và vận hành tài nguyên IT và các hệ thống, tích hợp thông tin và kiến thức một cách hiệu quả, và tập trung vào việc khám phá động lực tăng trưởng mới của tập đoàn trong tương lai cũng như nâng cao giá trị kinh doanh thông qua các công nghệ IT mới."
+    },
+    "projectIntroSection_1": {
+      "title": "Fly Office",
+      "summary": "Hệ thống tích hợp mua sắm điện tử, đặt hàng và phê duyệt điện tử",
+      "description": "Yêu cầu mua vật tư hoặc hàng hóa cần thiết được xử lý riêng theo từng người phụ trách mô-đun: phê duyệt điện tử, đặt hàng, nhập kho, hóa đơn thuế và thanh toán."
+    },
+    "systemArchitectureSection_1": {
+      "title": "Sơ đồ hệ thống",
+      "description": [
+        "Theo tình trạng yêu cầu mua hàng—hóa đơn thuế (đã nhập), hóa đơn thuế (chưa nhập), chi phí (đã nhập), chi phí (chưa nhập)—quy trình sẽ được tiến hành theo từng mô-đun tương ứng.",
+        "Hệ thống liên kết với Cơ quan Thuế Quốc gia và tài khoản ngân hàng để xử lý."
+      ]
+    },
+    "keyFeatureSection_1": {
+      "title": "Tính năng chính",
+      "description": [
+        "Chúng tôi cung cấp dịch vụ quản lý dữ liệu chủ cho quản lý nhà cung cấp, quản lý vật tư và toàn bộ quy trình mua hàng.",
+        "Hỗ trợ quản lý yêu cầu mua hàng một cách có hệ thống để nâng cao hiệu quả quy trình.",
+        "Vận hành tích hợp các công việc mua và nhập kho như quản lý đơn đặt hàng, quản lý nhập kho và thực hiện nhập kho.",
+        "Đạt được quản lý thuế chính xác và nhanh chóng thông qua xử lý hóa đơn thuế.",
+        "Hỗ trợ các nghiệp vụ kế toán như quản lý thanh toán, yêu cầu thanh toán, chốt sổ kế toán và báo cáo sổ cái tổng hợp."
+      ]
+    },
+    "projectIntroSection_2": {
+      "title": "Quản lý hội viên khách sạn",
+      "summary": "Hệ thống quản lý hội viên khách sạn",
+      "description": "Dịch vụ quản lý khách hàng dành cho việc quản lý hội viên VIP của khách sạn."
+    },
+    "systemArchitectureSection_2": {
+      "title": "Sơ đồ hệ thống",
+      "description": [
+        "Dịch vụ tùy chỉnh tối ưu cho môi trường khách hàng.",
+        "Quản lý hiệu quả mối quan hệ với khách hàng khách sạn và cải thiện chiến lược kinh doanh."
+      ]
+    },
+    "keyFeatureSection_2": {
+      "title": "Tính năng chính",
+      "description": [
+        "Có thể cấu hình linh hoạt các gói hội viên như điểm thưởng, phiếu giảm giá và quà tặng miễn phí theo đặc điểm khách hàng.",
+        "Quản lý tài nguyên được đặt trước một cách hiệu quả dựa trên giao diện trực quan.",
+        "Hệ thống hóa việc vận hành cơ sở để tối đa hóa hiệu quả công việc trong tổ chức.",
+        "Khách hàng có thể sử dụng điểm để nhận ưu đãi giảm giá khi sử dụng dịch vụ.",
+        "Quản lý và duy trì quan hệ khách hàng một cách có hệ thống để tăng mức độ trung thành.",
+        "Phân tích sản phẩm yêu thích, chu kỳ mua và xu hướng tiêu dùng của khách hàng để thiết lập chiến lược marketing cá nhân hóa."
+      ]
+    },
+    "projectIntroSection_3": {
+      "title": "Quản lý công việc nhóm",
+      "summary": "Quản lý công việc nhóm",
+      "description": "Dịch vụ chất lượng cao được cung cấp thông qua quản lý hợp đồng khách hàng, công việc thăm khách hàng, phân công đội nhóm và lịch làm việc. Các yêu cầu như chà ron, vệ sinh và xử lý hội chứng nhà mới bao gồm ghi chú đơn hàng, lịch làm việc và phân công đội nhóm. Việc thực hiện các công việc này bằng tay hoặc Excel gây khó khăn trong quản lý và hạn chế khả năng cung cấp dịch vụ chất lượng cao dựa trên thông tin đơn hàng của khách hàng."
+    },
+    "systemArchitectureSection_3": {
+      "title": "Sơ đồ hệ thống",
+      "description": [
+        "Khi đơn hàng của khách hàng được tiếp nhận, hệ thống tự động tạo yêu cầu công việc phù hợp với dịch vụ đó.",
+        "Các loại công việc như chà ron, vệ sinh trước khi vào ở, và xử lý hội chứng nhà mới được phân loại và quản lý có hệ thống.",
+        "Tiến độ và kết quả được thông báo cho khách hàng theo thời gian thực qua SMS."
+      ]
+    },
+    "keyFeatureSection_3": {
+      "title": "Tính năng chính",
+      "description": [
+        "Khi đơn hàng được tiếp nhận, đội công việc được phân công ngay lập tức để phản hồi nhanh.",
+        "Đội công việc có thể xem lịch và thông tin công việc rõ ràng qua lịch chuyên dụng.",
+        "Hệ thống hóa vận hành cơ sở để tối đa hiệu quả làm việc trong tổ chức.",
+        "Sau khi hoàn thành công việc, ảnh hiện trường được đăng tải và tin nhắn hoàn tất sẽ được gửi tự động cho khách hàng."
+      ]
+    }
+  },
+  "SolutionsPage": {
+    "overviewSection": {
+      "headingTitle": "Giải pháp",
+      "description": "Khung giải pháp của 2FC được xây dựng từ công nghệ tích lũy suốt 13 năm phát triển nhiều hệ thống ở các lĩnh vực khác nhau và được cung cấp như nhiều giải pháp tùy chỉnh theo nhu cầu của doanh nghiệp."
+    },
+    "projectIntroSection_1": {
+      "title": "Hệ thống quản lý nhượng quyền Fly Office",
+      "summary": "Hệ thống quản lý nhượng quyền",
+      "description": "Một hệ thống duy nhất quản lý hơn 70 điểm nhượng quyền, bao gồm đặt hàng, quản lý sản phẩm, mua hàng, bán hàng và bán hàng qua POS.\n\nSản phẩm được đặt từ các chi nhánh sẽ được tách ra và tự động gửi đơn đặt mua đến nhà cung cấp.\nHệ thống liên kết tài khoản ngân hàng để quản lý hạn mức theo số tiền đặt hàng của từng chi nhánh."
+    },
+    "systemArchitectureSection_1": {
+      "title": "Sơ đồ hệ thống",
+      "description": [
+        "Trụ sở nhượng quyền quản lý thông tin khu cắm trại và sản phẩm thông qua WMS (Hệ thống quản lý kho), trang web và hệ thống đặt chỗ.",
+        "Hệ thống kho và logistics đảm nhiệm việc cung cấp sản phẩm từ trụ sở đến cửa hàng nhượng quyền hoặc khu cắm trại.",
+        "Cửa hàng nhượng quyền, khu cắm trại và người tiêu dùng đặt hàng hoặc sử dụng dịch vụ thông qua hệ thống của trụ sở, nơi việc sử dụng và trải nghiệm sản phẩm thực tế diễn ra."
+      ]
+    },
+    "keyFeatureSection_1": {
+      "title": "Tính năng chính",
+      "description": [
+        "Quản lý thông tin tiêu chuẩn như khách hàng, sản phẩm, mẫu báo giá cùng với trạng thái đơn hàng, doanh số và thu tiền để hệ thống hóa hoạt động kinh doanh.",
+        "Theo dõi tình trạng giao hàng theo từng đơn hàng theo thời gian thực và có thể phát hành, quản lý hóa đơn thuế.",
+        "Quản lý hiệu quả kho hàng và luồng logistics thông qua thông tin thu tiền, nhập/xuất kho và điều chỉnh tồn kho."
+      ]
+    },
+    "projectIntroSection_2": {
+      "title": "Hệ thống quản lý mua sắm điện tử",
+      "summary": "Hệ thống quản lý mua sắm điện tử",
+      "description": "Yêu cầu mua vật tư hoặc hàng hóa cần thiết được xử lý riêng theo từng phụ trách mô-đun như phê duyệt điện tử, đặt hàng, nhập kho, hóa đơn thuế và thanh toán."
+    },
+    "systemArchitectureSection_2": {
+      "title": "Sơ đồ hệ thống",
+      "description": [
+        "Khi yêu cầu mua được đăng ký, hệ thống sẽ nhận phê duyệt qua phê duyệt điện tử, sau đó tiến hành đặt hàng và nhập kho.",
+        "Sau khi nhập kho hoàn tất, hóa đơn được liên kết và chuyển sang giai đoạn thanh toán, sau đó kiểm tra tình trạng thanh toán qua kết nối ngân hàng.",
+        "Khi tất cả thanh toán hoàn tất, hệ thống kế toán sẽ thực hiện xác nhận kế toán cuối cùng."
+      ]
+    },
+    "keyFeatureSection_2": {
+      "title": "Tính năng chính",
+      "description": [
+        "Bảng điều khiển hiển thị các thông tin như thông báo, tài liệu, trạng thái yêu cầu mua, tài liệu chờ phê duyệt và tình trạng tài liệu của tôi.",
+        "Người dùng có thể tạo yêu cầu mua, nhập thông tin mặt hàng, số lượng, đơn giá và thực hiện liên kết đến phê duyệt điện tử, đặt hàng, nhập kho và xuất hóa đơn thuế.",
+        "Mỗi bước có nút riêng, cho phép người dùng thực hiện phê duyệt điện tử, đặt hàng, nhập kho, xử lý hóa đơn và thanh toán dễ dàng.",
+        "Màn hình tài liệu phê duyệt hiển thị rõ ràng trạng thái phê duyệt, thông tin người phê duyệt, chi tiết tài liệu và danh sách mặt hàng để quản lý minh bạch lịch sử mua sắm.",
+        "Hệ thống xử lý toàn bộ quy trình từ mua hàng đến nhập kho, phê duyệt và xác nhận kế toán nhằm nâng cao hiệu quả và độ chính xác công việc."
+      ]
+    },
+    "projectIntroSection_3": {
+      "title": "Hệ thống quản lý lao động xây dựng nước ngoài",
+      "summary": "Hệ thống quản lý lao động",
+      "description": "Hệ thống dành cho công ty xây dựng nhà máy tại Thái Lan để quản lý nhân sự, chấm công và tiền lương cho hơn 500 nhân viên và hơn 5.000 lao động. Hệ thống còn bao gồm đánh giá nhân sự và đấu thầu mua hàng."
+    },
+    "systemArchitectureSection_3": {
+      "title": "Sơ đồ hệ thống",
+      "description": [
+        "Hệ thống nhân sự quản lý thông tin nhân sự của nhân viên như đăng ký hồ sơ nhân sự, lịch sử làm việc, đánh giá và điều chuyển.",
+        "Hệ thống chấm công xử lý dữ liệu chấm công với nhiều điều kiện khác nhau như nhận diện vân tay, chấm công ngày, tăng ca, ca đêm và làm việc ngày mưa.",
+        "Hệ thống tiền lương và quyết toán hỗ trợ các công việc liên quan như thiết lập mục lương hàng tháng, tính lương và lập báo cáo thuế."
+      ]
+    },
+    "keyFeatureSection_3": {
+      "title": "Tính năng chính",
+      "description": [
+        "Có thể thiết lập và quản lý đồng bộ mã chung và vai trò người dùng, nâng cao tính nhất quán và bảo mật của hệ thống.",
+        "Xử lý ổn định dữ liệu của hơn 3.000 nhân viên, giúp quản lý nhân sự hiệu quả cho tổ chức quy mô lớn.",
+        "Có thể điều chỉnh linh hoạt các mục lương như lương cơ bản, phụ cấp và thuế, đồng thời dễ dàng tạo báo cáo lương cá nhân.",
+        "Ghi nhận chấm công theo nhiều điều kiện làm việc như tăng ca, ca đêm và ngày mưa, giúp quản lý công việc linh hoạt theo thực tế hiện trường.",
+        "Bảng lương và báo cáo thuế được tự động tạo dựa trên thông tin lương và thuế của từng nhân viên, giúp đơn giản hóa xử lý kế toán và thuế."
+      ]
+    }
+  },
+  "DevicesPage": {
+    "overviewSection": {
+      "headingTitle": "Device \nCommunication",
+      "description": "Là lĩnh vực phát triển chuyên biệt của 2FC, chúng tôi có kinh nghiệm và thành tích phong phú trong RF communication, Raspberry Pi, các loại middleware và SECS communication, giúp nâng cao hiệu quả công việc của quý công ty một cách đột phá."
+    },
+    "deviceProjectSection_1": {
+      "title": "Middleware LG Energy Solution",
+      "description": "Bộ điều khiển hệ thống RFID được thiết kế để tự động hóa quy trình sản xuất pin, tự động nhận dạng gói tin giữa PLC và đầu đọc RFID và truyền chính xác đến đầu đọc tương ứng. Thiết bị hỗ trợ cả đầu đọc tần số 13.56MHz và 900MHz, và đặc biệt với thẻ 900MHz, hệ thống lọc giá trị nhận dạng cao nhất theo từng dữ liệu và gửi đến PLC. Tất cả dữ liệu truyền và nhận đều được ghi vào file log, giúp phân tích nhanh chóng và chính xác khi xảy ra sự cố."
+    },
+    "deviceProjectSection_2": {
+      "title": "Middleware SK hynix – Giao tiếp SECS",
+      "description": "Để tự động hóa quy trình TDBI, chúng tôi đã phát triển bộ điều khiển rack-stocker điều khiển luồng quy trình dựa trên AGV. Để đảm bảo truyền nhận thông điệp ổn định với máy chủ, chúng tôi xây dựng thư viện giao tiếp chạy trên môi trường Linux nhúng. Sử dụng giao thức SECS-II dựa trên HSMS, hệ thống hỗ trợ khởi tạo thiết bị và báo cáo sự kiện. Việc truyền dữ liệu tiêu chuẩn hóa và các yếu tố giao thức chính được tuân thủ theo tiêu chuẩn SECS, giúp kết nối trơn tru với thiết bị quy trình bán dẫn."
+    },
+    "deviceProjectSection_3": {
+      "title": "Giao tiếp mã hóa ZMODEM",
+      "description": "Để tự động hóa quy trình TDBI, chúng tôi đã phát triển bộ điều khiển rack-stocker điều khiển luồng quy trình dựa trên AGV. Thư viện giao tiếp chạy trên Linux nhúng được xây dựng để đảm bảo truyền nhận thông điệp ổn định với máy chủ. Giao thức SECS-II dựa trên HSMS được áp dụng để hỗ trợ khởi tạo thiết bị và báo cáo sự kiện. Hệ thống được thiết kế tuân theo tiêu chuẩn SECS để đảm bảo kết nối mượt mà với thiết bị quy trình bán dẫn."
+    },
+    "deviceProjectSection_4": {
+      "title": "Phát triển Middleware kệ Runbox – Nhà máy SK System IC Wuxi",
+      "description": "Bộ điều khiển kệ được thiết kế để vận chuyển tự động runbox chứa wafer trong quy trình bán dẫn. Thiết bị giao tiếp với máy chủ thông qua RS-485 gateway và điều khiển đầu đọc RFID 125kHz cùng mô-đun LCD gắn trên kệ. Thông tin vào/ra của runbox và trạng thái hệ thống được ghi theo thời gian thực, và toàn bộ dữ liệu truyền nhận được lưu vào file log, giúp phân tích sự cố nhanh chóng."
+    },
+    "deviceProjectSection_5": {
+      "title": "Phát triển Middleware xe đẩy tự động – LOT Location Samsung Giheung",
+      "description": "Bộ điều khiển xe đẩy được thiết kế để vận chuyển tự động LOT box chứa wafer trong quy trình bán dẫn. Do đặc tính thiết bị di động, xe giao tiếp không dây với máy chủ qua Wi-Fi. Bộ điều khiển quản lý đầu đọc RFID 13.56MHz, đèn cảnh báo, cảm biến, mô-đun LCD và giám sát tình trạng quy trình theo thời gian thực để cung cấp thông tin cho người dùng. Toàn bộ dữ liệu truyền nhận được ghi vào file log để hỗ trợ phân tích nguyên nhân và xử lý sự cố nhanh chóng."
+    },
+    "deviceProjectSection_6": {
+      "title": "Phát triển ứng dụng giao tiếp đầu đọc RF – JT Communication",
+      "description": "Để điều khiển đầu đọc RFID lắp đặt tại lối vào nhà trẻ và mẫu giáo, chúng tôi phát triển ứng dụng Android cấu hình hệ thống, là một phần của hệ thống gửi tự động thông tin điểm danh đến phụ huynh. Ứng dụng giao tiếp với đầu đọc RFID qua Bluetooth và cho phép cấu hình toàn bộ cài đặt của đầu đọc trực tiếp từ ứng dụng. Ngoài ra còn hỗ trợ cập nhật firmware và kiểm tra đọc thẻ, giúp bảo trì và kiểm tra chức năng dễ dàng tại hiện trường."
+    },
+    "deviceProjectEtc": {
+      "title": "Các dự án khác",
+      "descriptions_left": [
+        "Tích hợp Icheon TDBI Buffer Manager",
+        "Phát triển giám sát lực căng – Trung tâm Văn hóa châu Á Gwangju",
+        "Giao diện Seyeon Reel Finder",
+        "Giao tiếp SK hynix",
+        "Quản lý kiểm thử sản phẩm iRevo",
+        "Chương trình giao tiếp công ty thẻ HanSeung"
+      ],
+      "descriptions_right": [
+        "Phát triển Raspberry Terra",
+        "Hynix Reticle",
+        "Kiểm thử quy trình sản xuất khóa điện tử iRevo",
+        "Giao tiếp SECS với máy chủ chính Hynix",
+        "Xử lý hình ảnh nông sản Haman"
+      ]
+    }
   }
+
 
 }

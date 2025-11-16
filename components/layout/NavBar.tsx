@@ -22,13 +22,13 @@ export default function NavBar() {
             <nav>
                 <ul className={styles['menu']}>
                     <li>
-                        <Link href="/service">IT Service</Link>
+                        <Link href={lhref('/service', locale)}>IT Service</Link>
                     </li>
                     <li>
-                        <Link href="/solutions">Solutions</Link>
+                        <Link href={lhref('/solutions', locale)}>Solutions</Link>
                     </li>
                     <li>
-                        <Link href="/devices">Devices</Link>
+                        <Link href={lhref('/devices', locale)}>Devices</Link>
                     </li>
                 </ul>
             </nav>

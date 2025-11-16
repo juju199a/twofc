@@ -4,22 +4,22 @@ import Image from 'next/image';
 
 export default function ContactSection() {
 
-    // const t = useTranslations('LandingPage.contactSection');
-    // const messages = {
-    //     heroSection: t('headingTitle'),
-    //     headingSubTitle : t('headingSubTitle'),
-    //     address: t('address')
-    // };
+    const t = useTranslations('ContactPage.contactSection');
+    const messages = {
+        heroSection: t('headingTitle'),
+        headingSubTitle : t('headingSubTitle'),
+        address: t('address')
+    };
 
     return (
         <div className={styles['wrapper']}>
             <section className={styles['section']} >
                 <div className={styles['title']}>
                     <div className={styles['big']}>
-                        Contact
+                        {messages.heroSection}
                     </div>
                     <div className={styles['small']}>
-                        2FC의 전문가와 함께 하시면 귀사의 IT Team이 완성됩니다.
+                        {messages.headingSubTitle}
                     </div>
                 </div>
                 <div className={styles['container']}>
@@ -30,7 +30,7 @@ export default function ContactSection() {
                         <div className={styles['contact-table']}>
                             <div className={styles['row']}>
                                 <div className={styles['label']}>Address</div>
-                                <div className={styles['value']}>서울시 영등포구 국제금융로6길 33 13층 11호</div>
+                                <div className={styles['value']}>{messages.address}</div>
                             </div>
                             <div className={styles['row']}>
                                 <div className={styles['label']}>Tel</div>
