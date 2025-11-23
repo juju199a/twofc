@@ -1,4 +1,13 @@
-.wrap {
+.wrappper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+.container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +33,7 @@
 .menu li a {
     position: relative;
     text-decoration: none;
-    color: var(--primary-primary);
+    color: var(--color-neutral-300);
     font-weight: 700;
     font-size: 20px;
     transition: color 0.3s;
@@ -34,23 +43,36 @@
 .menu li a::after {
     content: "";
     position: absolute;
-    left: 50%;                     /* 가운데 기준 */
-    bottom: -8px;                  /* 텍스트와 간격 */
+    left: 50%;
+    bottom: -8px;
     width: 100%;
     height: 3px;
     background-color: var(--primary-blue);
-    transform: translateX(-50%) scaleX(0);   /* 가운데에서 0 → 1로 */
-    transform-origin: center;                 /* 가운데 기준으로 확대 */
-    transition: transform 0.3s ease;
+
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center; 
+
+    transition: transform 0.45s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
-.menu li a:hover {
-  color: var(--color-neutral-900);
+.menu li a:hover,
+.menu li a.activeLink {
+  color: var(--primary-blue);
 }
 
 /* hover 시 밑줄이 가운데에서 양옆으로 퍼짐 */
-.menu li a:hover::after {
+.menu li a:hover::after,
+.menu li a.activeLink::after {
     transform: translateX(-50%) scaleX(1);
+}
+
+/* === 여기부터 추가: 활성 메뉴 색/밑줄 === */
+.activeLink {
+  color: var(--primary-blue);
+}
+
+.activeLink::after {
+  transform: translateX(-50%) scaleX(1);
 }
 
 .button-box {
@@ -107,4 +129,52 @@
 
 .button-disable:hover {
     opacity: 85%; /* hover 시 색상 */
+}
+
+/* SubNavBar 영역 */
+.subNavBar {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, 10px);
+  margin-top: 12px;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity 0.35s cubic-bezier(0.25, 0.1, 0.25, 1),
+              transform 0.35s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+}
+
+/* 보여질 때 */
+.subNavBarVisible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}
+
+/* 알약 모양 + 가운데에서 양옆으로 커지는 애니메이션 */
+@keyframes pillExpandFromCenter {
+  0% {
+    transform: scaleX(0);
+    opacity: 0;
+  }
+  50% {
+    transform: scaleX(1.02); /* 조금 overshoot */
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(1);
+    opacity: 1;
+  }
+}
+
+.subPill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  transform-origin: center center;
+  animation: pillExpandFromCenter 0.45s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
 }

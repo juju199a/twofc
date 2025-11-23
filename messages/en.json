@@ -1,4 +1,25 @@
 {
+    "Menu" : {
+        "service": {
+            "0" : "Fly Office",
+            "1" : "Hotel Membership",
+            "2" : "Team Work"
+        },
+        "solutions": {
+            "0" : "Franchise management",
+            "1" : "Electronic procurement",
+            "2" : "Labor management"
+        },
+        "devices": {
+            "0": "LG Energy",
+            "1": "SK Hynix",
+            "2": "ZMODEM",
+            "3": "SK System",
+            "4": "Samsung Giheung",
+            "5": "JT",
+            "6": "Others"
+        }
+    },
     "LandingPage": {
         "heroSection": {
             "headingTitle": "2FC will put wings on your company.",
@@ -271,7 +292,7 @@
         "description": "2FC’s framework is a collection of accumulated technologies built over 13 years of developing various systems, and is provided as a range of customized solutions required by enterprises."
         },
         "projectIntroSection_1": {
-        "title": "Fly Office Franchise Management System",
+        "title": "Franchise Management System",
         "summary": "Franchise management system",
         "description": "A single integrated system that manages more than 70 franchise branches for ordering, product management, purchasing, sales, and POS sales.\n\nProducts ordered by branches are separated and automatically requested to suppliers.\nBy linking bank accounts, the system manages credit limits based on branch order amounts."
         },

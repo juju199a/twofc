@@ -43,6 +43,8 @@ html {
   word-break: keep-all;
   font-family: var(--font-famly);
   font-size: var(--font-size-desktop); /* 데스크톱 */
+
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 1280px) {

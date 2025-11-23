@@ -1,4 +1,25 @@
 {
+  "Menu" : {
+        "service": {
+            "0" : "Fly Office",
+            "1" : "QL hội viên",
+            "2" : "QL nhóm"
+        },
+        "solutions": {
+            "0": "Nhượng quyền",
+            "1": "Mua sắm",
+            "2": "Lao động"
+        },
+        "devices": {
+              "0": "LG",
+              "1": "SK Hynix",
+              "2": "ZMODEM",
+              "3": "SK",
+              "4": "Samsung",
+              "5": "JT",
+              "6": "Khác"
+          }
+    },
   "LandingPage": {
     "heroSection": {
       "headingTitle": "2FC sẽ chắp cánh cho công ty bạn.",
@@ -271,7 +292,7 @@
       "description": "Khung giải pháp của 2FC được xây dựng từ công nghệ tích lũy suốt 13 năm phát triển nhiều hệ thống ở các lĩnh vực khác nhau và được cung cấp như nhiều giải pháp tùy chỉnh theo nhu cầu của doanh nghiệp."
     },
     "projectIntroSection_1": {
-      "title": "Hệ thống quản lý nhượng quyền Fly Office",
+      "title": "Hệ thống quản lý nhượng quyền",
       "summary": "Hệ thống quản lý nhượng quyền",
       "description": "Một hệ thống duy nhất quản lý hơn 70 điểm nhượng quyền, bao gồm đặt hàng, quản lý sản phẩm, mua hàng, bán hàng và bán hàng qua POS.\n\nSản phẩm được đặt từ các chi nhánh sẽ được tách ra và tự động gửi đơn đặt mua đến nhà cung cấp.\nHệ thống liên kết tài khoản ngân hàng để quản lý hạn mức theo số tiền đặt hàng của từng chi nhánh."
     },
