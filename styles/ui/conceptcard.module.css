@@ -81,7 +81,7 @@
     height: 100%;
 
     font-weight: 600;
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--primary-blue);
 }
 
@@ -93,7 +93,7 @@
     height: 100%;
 
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--color-neutral-600);
 }
 
@@ -134,13 +134,13 @@
     height: 24px;
 
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--primary-blue);
 }
 
 .summary-item .text{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: var(--primary-blue);
 }
 
@@ -170,7 +170,7 @@
     border: 0; /* 테두리 */
     border-radius: 16px;        /* 둥근 모서리 */
     padding: 8px 16px;        /* 여백 */
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease;

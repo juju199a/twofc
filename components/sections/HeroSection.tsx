@@ -39,7 +39,9 @@ export default function HeroSection() {
                       </div>                      
                     </div>
                 </div>
-                <HeroImages />
+                <div className={styles['hero-container-right']}>
+                  <HeroImages />
+                </div>
             </div>
             <div className={styles['hero-banner-container']}>
                 <div className={styles['heading']}>{messages.bannerHeading}</div>

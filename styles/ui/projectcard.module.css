@@ -91,17 +91,17 @@
 
 .title-box .title {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .title-box .subtitle {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .container .description {
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: var(--color-neutral-600);
 }
 

@@ -51,7 +51,7 @@ export default function NavBar() {
     }
 
     return (
-        <div className={styles.wrappper} onMouseLeave={handleMouseLeaveWrapper}>
+        <div className={styles.wrapper} onMouseLeave={handleMouseLeaveWrapper}>
             <div className={styles.container}>
                 <div>
                     <Link href={lhref('/', locale)}>

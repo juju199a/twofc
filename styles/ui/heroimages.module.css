@@ -9,7 +9,7 @@
   transform-style: preserve-3d;
 
   --ax: 0px;   --ay: 68px;    /* 앞쪽(왼쪽 아래) */
-  --bx: 68px;  --by: 0px;     /* 뒤쪽(오른쪽 위)  */
+  --bx: 0px;  --by: 0px;     /* 뒤쪽(오른쪽 위)  */
   --z-front: 60px;
   --z-back: 0px;
 }
@@ -47,7 +47,7 @@
 .back{
   z-index: 1;
   opacity: .98;
-  transform: translate3d(var(--bx), var(--by), var(--z-back));
+  transform: translate3d(var(--bx), var(--by), var(--z-back)) scale(0.9);;
   filter: blur(1px) saturate(0.95) brightness(0.98);
 }
 

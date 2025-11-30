@@ -70,8 +70,7 @@ header {
     position:sticky;
     top: 0;
     width: 100%;
-    max-width: 1920px;
-    height: 72px;
+    height: 4.5rem;
     margin: 0;
     background-image: linear-gradient(
       180deg,
@@ -83,6 +82,12 @@ header {
     border-top: 1px solid white;
     /* border: 0 solid purple;   확인용 */
     z-index:1000;
+}
+
+@media (max-width: 768px) {
+  header {
+    height: 4rem;      /* 필요하면 좀 더 줄이기 */
+  }
 }
 
 footer {
@@ -103,27 +108,27 @@ main {
 }
 
 h1 {
-  font-size: 2em;      /* PC: 32px, 태블릿: 28px, 모바일: 24px */
+  font-size: 2rem;      /* PC: 32px, 태블릿: 28px, 모바일: 24px */
 }
 
 h2 {
-  font-size: 1.5em;    /* PC: 24px, 태블릿: 21px, 모바일: 18px */
+  font-size: 1.5rem;    /* PC: 24px, 태블릿: 21px, 모바일: 18px */
 }
 
 h3 {
-  font-size: 1.17em;   /* PC: 약 18.7px, 태블릿: 약 16.4px, 모바일: 약 14px */
+  font-size: 1.17rem;   /* PC: 약 18.7px, 태블릿: 약 16.4px, 모바일: 약 14px */
 }
 
 h4 {
-  font-size: 1em;      /* PC: 16px, 태블릿: 14px, 모바일: 12px */
+  font-size: 1rem;      /* PC: 16px, 태블릿: 14px, 모바일: 12px */
 }
 
 h5 {
-  font-size: 0.83em;   /* PC: 약 13.3px, 태블릿: 약 11.6px, 모바일: 약 10px */
+  font-size: 0.83rem;   /* PC: 약 13.3px, 태블릿: 약 11.6px, 모바일: 약 10px */
 }
 
 h6 {
-  font-size: 0.67em;   /* PC: 약 10.7px, 태블릿: 약 9.4px, 모바일: 약 8px */
+  font-size: 0.67rem;   /* PC: 약 10.7px, 태블릿: 약 9.4px, 모바일: 약 8px */
 }
 
 .big {

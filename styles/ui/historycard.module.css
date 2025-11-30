@@ -23,7 +23,7 @@
 
 .card-header .year{
     font-weight: 700;
-    font-size: 32px;
+    font-size: 2rem;
     color: var(--color-neutral-600);
 }
 
@@ -41,7 +41,7 @@
 
 .container .description {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 1.25rem;
     line-height: 36px;
     
     color: var(--color-neutral-600);
