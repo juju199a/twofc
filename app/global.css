@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Pretendard', sans-serif;
+  font-family: 'Pretendard';  /* ← 여기! 한 개만 */
   src: url('/fonts/PretendardVariable.woff2') format('woff2');
   font-weight: 400 700;
   font-style: normal;
@@ -49,12 +49,14 @@ html {
 
 @media (max-width: 1280px) {
   html {
+    font-family: var(--font-famly);
     font-size: var(--font-size-tablet); /* 태블릿 */
   }
 }
 
 @media (max-width: 768px) {
   html {
+    font-family: var(--font-famly);
     font-size: var(--font-size-mobile); /* 모바일 */
   }
 }
