@@ -12,12 +12,12 @@ export default function Page() {
   return (
     <>
       <div><HeroSection /></div>
-      <div><ConceptSection /></div>
+      {/* <div><ConceptSection /></div>
       <div><FeaturedProjectSection /></div>
       <div><TechnologyStackSection /></div>
       <div><FlyFrameworkSection /></div>
       <div><LeadershipSection /></div>
-      <div><NewsSection /></div>
+      <div><NewsSection /></div> */}
       
       
     </>
