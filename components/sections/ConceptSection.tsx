@@ -15,7 +15,7 @@ export default function ConceptSection() {
     const devices = useTranslations('LandingPage.conceptSection.Devices');
 
     return (
-        <div className={styles['concept']}>
+        <div className={styles['wrapper']}>
             <section className={styles['section']}>
                 <div className={styles['container']}>
                     <div className={styles['heading']}>

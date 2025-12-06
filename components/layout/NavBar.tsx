@@ -81,11 +81,11 @@ export default function NavBar() {
                 </div>
                 <button
                     type="button"
-                    className={styles.hamburger}
+                    className={styles['hamburger']}
                     onClick={() => setIsMobileMenuOpen(prev => !prev)}
                     aria-label="메뉴 열기"
                     >
-                    <svg height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f">
+                    <svg height="28px" viewBox="0 -960 960 960" width="28px" fill="#1E69A1">
                         <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
                     </svg>
                 </button>

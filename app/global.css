@@ -47,6 +47,10 @@ html {
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 @media (max-width: 1280px) {
   html {
     font-family: var(--font-famly);

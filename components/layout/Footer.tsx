@@ -12,8 +12,8 @@ export default function Footer() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.container}>
-                <div>
-                    <Image src="/images/2fc_logo_full.png" alt="2FC logo" width={140} height={52}></Image>
+                <div className={styles['logo-box']}>
+                    <Image src="/images/2fc_logo_full.png" alt="2FC logo" className={styles['logo']} width={140} height={52}></Image>
                 </div>
                 <div className={styles.address}>
                     Address: {messages.address}<br/>

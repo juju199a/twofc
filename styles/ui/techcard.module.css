@@ -2,7 +2,6 @@
     max-width: 270px;
     max-height: 574px;
     width: 100%;
-    height: 100%;
 
     display: flex;
     flex-direction: column;
@@ -20,6 +19,9 @@
     max-height: 112px;
     width: 100%;
     height: 100%;
+
+    padding-top: 18px;
+    padding-bottom: 18px;
 
     border: 1px solid var(--color-neutral-200);
     border-radius: 16px;
@@ -71,7 +73,6 @@
     max-width: 270px;
     max-height: 397px;
     width: 100%;
-    height: 100%;
 
     border: 1px solid var(--color-neutral-200);
     border-radius: 16px;
@@ -86,13 +87,15 @@
 
 .card .tech-box {
     max-width: 270px;
-    max-height: 397px;
     width: 100%;
     height: 100%;
 
     border: 1px solid var(--color-neutral-200);
     border-radius: 16px;
     box-shadow: 0 0 10px rgba(0,0,0,0.25);
+
+    padding-top: 24px;
+    padding-bottom: 24px;
 
     cursor: pointer;
     transition: box-shadow 0.2s, transform 0.2s;
@@ -109,10 +112,8 @@
 }
 
 .tech-box .tech-image {
-    max-width: 82px;
-    max-height: 82px;
-    width: 100%;
-    height: 100%;
+    width: 82px;
+    height: 82px;
     position: relative;
 }
 
@@ -122,3 +123,9 @@
     transition: filter 180ms ease;  */
 }
 
+@media (max-width: 1280px) {
+    .tech-box .tech-image {
+        width: clamp(36px, 12vw, 82px);
+        height: auto;
+    }
+}

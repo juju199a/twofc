@@ -28,9 +28,26 @@
     gap: 48px;
 }
 
+.logo {
+  width: clamp(100px, 12vw, 140px);
+  height: auto;
+
+  /* border: 2px solid red; */
+}
+
+.logo-box {
+  flex: 0 0 auto;      /* 로고 영역은 내용만큼만 차지 */
+}
+
 .container .address {
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--color-neutral-900);    /* 글자색 */
     line-height: 35px;
+}
+
+@media (max-width: 768px) {
+    .logo-box {
+        display: none;
+    }
 }
